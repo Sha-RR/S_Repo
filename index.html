@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shaikshavali Shaik | AI Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="navbar">
+    <div class="nav-left">
+      <div class="menu-wrap">
+        <button class="menu-btn" id="menuToggle" type="button">=</button>
+
+        <div class="dropdown-menu" id="dropdownMenu">
+          <a href="resume.html">Resume</a>
+          <a href="certifications.html">Certifications</a>
+          <a href="contact.html">Contact</a>
+          <a href="about.html">About</a>
+        </div>
+      </div>
+
+      <div class="logo-wrap">
+        <div class="logo-text">
+          <span class="brand-name">Shaikshavali Shaik</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="nav-right">
+      <div class="nav-badge">
+        Technologies • Experiences • Projects • Courses • Education • Interests
+      </div>
+    </div>
+  </header>
+
+  <div class="header-line"></div>
+
+  <main class="scroll-story">
+    <section class="story-panel panel-one">
+      <div class="panel-inner panel-one-inner">
+        <h1 class="hero-title" id="heroTitle">Reimagining AI</h1>
+
+        <div class="hero-reveal" id="heroReveal">
+          <h2>Push AI Beyond the Expected.</h2>
+          <p>Discover what AI can do when creativity meets real-world.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-panel panel-two">
+      <div class="panel-inner">
+        <h2 class="section-title">Real Problems, Real Experiments, Real Results.</h2>
+        <p class="section-copy">
+          A journey into turning bold ideas into practical possibilities.
+        </p>
+      </div>
+    </section>
+
+    <section class="story-panel panel-three">
+      <div class="panel-inner">
+        <h2 class="section-title">Designed with Vision. Built with Intelligence.</h2>
+        <p class="section-copy">
+          Premium systems, thoughtful engineering, and AI-driven execution for meaningful impact.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div class="bottom-bar">
+    <div class="bottom-left">
+      <a href="#">Learn more -&gt;</a>
+    </div>
+    <div class="bottom-right">
+      <p>Scroll down for my portfolio</p>
+    </div>
+  </div>
+
+  <div class="chat-widget">
+    <div class="chat-icon">AS</div>
+    <div class="chat-copy">
+      <span>Ask about Shaik</span>
+    </div>
+  </div>
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const dropdownMenu = document.getElementById("dropdownMenu");
+
+    menuToggle.addEventListener("click", function (e) {
+      e.stopPropagation();
+      dropdownMenu.classList.toggle("show");
+    });
+
+    dropdownMenu.addEventListener("click", function (e) {
+      e.stopPropagation();
+    });
+
+    window.addEventListener("click", function (e) {
+      if (!dropdownMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+        dropdownMenu.classList.remove("show");
+      }
+    });
+  </script>
+
+  <script>
+  // Disable browser scroll restoration — always start at top
+  if ("scrollRestoration" in history) {
+    history.scrollRestoration = "manual";
+  }
+  window.scrollTo(0, 0);
+
+  const firstPanel = document.querySelector(".panel-one");
+  const heroTitle = document.getElementById("heroTitle");
+  const heroReveal = document.getElementById("heroReveal");
+  const animatedPanels = document.querySelectorAll(".panel-two, .panel-three");
+
+  // Apply initial state immediately so title is visible on load
+  heroTitle.style.transform = "translate(-50%, -50%) scale(1)";
+  heroTitle.style.opacity = "1";
+  heroTitle.style.filter = "blur(0px)";
+  heroReveal.style.transform = "translate(-50%, -50%) scale(0.72)";
+  heroReveal.style.opacity = "0";
+  heroReveal.style.filter = "blur(14px)";
+
+  function animateHeroSection() {
+    const scrollRange = firstPanel.offsetHeight - window.innerHeight;
+    if (scrollRange <= 0) return;
+
+    const progress = Math.max(0, Math.min(window.scrollY / scrollRange, 1));
+
+    // Title fades + shrinks out during first 50% of scroll
+    const tp = Math.min(progress / 0.5, 1);
+    heroTitle.style.transform = `translate(-50%, -50%) scale(${1 - tp * 0.78})`;
+    heroTitle.style.opacity = Math.max(1 - tp * 1.1, 0);
+    heroTitle.style.filter = `blur(${tp * 10}px)`;
+
+    // Reveal fades in from 30% to 70% of scroll
+    const rp = Math.max(0, Math.min((progress - 0.3) / 0.4, 1));
+    heroReveal.style.transform = `translate(-50%, -50%) scale(${0.72 + rp * 0.28})`;
+    heroReveal.style.opacity = rp;
+    heroReveal.style.filter = `blur(${(1 - rp) * 14}px)`;
+  }
+
+  function animateOtherPanels() {
+    animatedPanels.forEach((panel) => {
+      if (panel.getBoundingClientRect().top < window.innerHeight * 0.82) {
+        panel.classList.add("in-view");
+      }
+    });
+  }
+
+  function tick() {
+    animateHeroSection();
+    animateOtherPanels();
+  }
+
+  window.addEventListener("scroll", tick, { passive: true });
+  window.addEventListener("resize", tick);
+
+  // Re-enforce scroll=0 and correct state after first paint
+  requestAnimationFrame(() => {
+    window.scrollTo(0, 0);
+    heroTitle.style.transform = "translate(-50%, -50%) scale(1)";
+    heroTitle.style.opacity = "1";
+    heroTitle.style.filter = "blur(0px)";
+    heroReveal.style.opacity = "0";
+  });
+</script>
+</body>
+</html>

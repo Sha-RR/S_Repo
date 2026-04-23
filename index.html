@@ -75,37 +75,8 @@
   <!-- ══════════════════════════════════════
        PORTFOLIO SECTIONS (slide-up panels)
        ══════════════════════════════════════ -->
-<!--
-  ============================================================
-  TECH & AI Q&A SECTION — for sha-rr.github.io/S_Repo/
-  ============================================================
 
-  HOW TO ADD THIS TO YOUR SITE:
-  1. Open your index.html
-  2. Find where you want this section (before the footer works well)
-  3. Paste everything between the START and END markers below
-
-  HOW TO ADD NEW QUESTIONS EVERY DAY:
-  - Scroll to the `const qaData = [...]` array in the <script>
-  - Add a new object at the TOP (newest entries first)
-  - Use backticks ` ` for the answer so you can write on multiple lines
-  - Tags: AI, ML, Tech, Space, LLM, Cloud, Robotics, Quantum (or anything)
-
-  EXAMPLE ENTRY:
-  {
-    question: "Your question here?",
-    answer: `First sentence of your answer.
-
-    Second sentence. Third sentence.
-    You can write across as many lines as you want.`,
-    tag: "AI",
-    date: "Apr 24, 2025"
-  },
-  ============================================================
--->
-
-
-<!-- =================== START: PASTE FROM HERE =================== -->
+<!-- =================== STARTED: Q&A FROM HERE =================== -->
 
 <style>
   #tech-qa {
@@ -327,17 +298,47 @@
   <p id="qa-count"></p>
 
 </section>
-
-
 <script>
 // ============================================================
 // ✏️  ADD YOUR DAILY QUESTIONS HERE — newest at the TOP
 // ============================================================
-// Use backticks for answers to write across multiple lines easily.
-// ============================================================
-
 const qaData = [
-
+  {
+    question: "Why is a perfect AI impossible?",
+    answer: `A truly perfect AI is impossible because perfect breaks in a few different ways at once. First, the world is incomplete and messy. An AI never sees everything. It gets limited data, ambiguous language, missing context, and sometimes false information. If the input is imperfect, the output cannot be perfect every time. Second, human goals are not perfectly defined. People say things like be helpful, be fair, or make the best decision, but those goals often conflict. What is fair to one person may feel unfair to another.
+    So even if the AI is very strong, it cannot satisfy all values at once. Third, there are tradeoffs. An AI cannot maximize everything together, speed vs accuracy, creativity vs safety, privacy vs personalization, honesty about uncertainty vs sounding confident. Improving one usually weakens another. Fourth, some problems are fundamentally solvable. In math and computer science, there are limits to computation. Some questions cannot be answered perfectly in general, or cannot be solved efficiently for all cases. Fifth, humans
+    themselves are not perfect judges. We often disagree, change our minds, or want different outcomes in different situations. So perfect according to whom? because the main problem. SO the real goal is not perfect AI. It is useful, reliable, honest, aligned, and improving AI. In summary: Perfect AI is impossible because reality is uncertain, human values conflict, and computation itself has hard limits.`,
+    tag: "AI",
+    date: "Apr 24, 2025"
+  },
+  // -- Quantum --
+  {
+    question: "What is the current state of quantum computing in 2025?",
+    answer: "Quantum computing in 2025 is still largely in the NISQ (Noisy Intermediate-Scale Quantum) era, meaning machines exist but are error-prone and not yet at fault-tolerant scale. Google, IBM, and Microsoft are competing to demonstrate 'quantum advantage' — real-world tasks where quantum processors outperform classical computers. IBM's 1,000+ qubit processors and Microsoft's topological qubit research are the biggest milestones of this cycle, though most quantum applications remain experimental.",
+    tag: "Quantum",
+    date: "Apr 20, 2025"
+  },
+  {
+    question: "Is quantum computing the future of technology?",
+    answer: `yes, but not as a replacement for today's computers. Quantum computing is likely to become a powerful specialized tool that works alongside classical computing, not instead of it.`,
+    tag: "Quantum",
+    date: "Mar 01, 2026"
+  },
+  {
+    question: "Why quantum computing matters?",
+    answer: `First, it solves different kinds of problems. Unlike Classical computers, which use bits (0 or 1). Quantum computers use qubits, which can exist in multiple states at once (called superposition) and influence each other (entanglement). This allows quantum machines to explore many possibilities simultaneously, giving a huge advantage for specific problems. Cryptography - breaking or strengthening encryption. Drug discovery & materials science - simulating molecules accurately. Optimization - logistics, supply chains, 
+    traffic, finance. AI & machine learning - accelerating certain training and sampling tasks. Second, exponential speedups (in narrow areas). For some problems, quantum algorithms offer exponential or dramatic speedups over classical ones. A famous example: factoring large numbers (important for encryption). That's why companies like IBM, GOOGLE, and MICROSOFT are investing billions into quantum research.`,
+    tag: "Quantum",
+    date: "Mar 01, 2026"
+  },
+  {
+    question: "Why quantum computing is not replacing classical computers",
+    answer: `First, Quantum computers are extremely fragile. Must run near absolute zero. Qubits lose information easily (noise, decoherence). Error correction requires thousands of physical qubits per logical qubit. Right now, we're in the NISQ era (Noisy Intermediate-Scale Quantum). Second, Most everyday tasks don't benefit. Quantum computers are terrible at Web browsing, Mobile apps, Games, Databases, and General software. Our laptop, phone, and cloud servers aren't going anywhere. 
+    So, we have a concept called Hybrid computing: The future looks like: Classical computers -> general-purpose work. Quantum processors -> specialized accelerators. Cloud access -> quantum-as-a-service (QaaS). Similar to how GPUs didn't replace CPUs, but became essential for AI. Timeline (rough, realistic). Now-5 years: Research, education, niche experiments. 5-15 years: Practical quantum advantage in chemistry, optimization. 15+ years: Fault-tolerant quantum computers with real-world impact.
+    Quantum computers are part of the future of technology, but not the whole future. It is a revolutionary tool for specific, high-impact problems, while classical computing remains dominant for everything else.`,
+    tag: "Quantum",
+    date: "Mar 01, 2026",
+  },
   {
     question: "What is OpenAI's GPT-4o and why does it matter?",
     answer: `GPT-4o is OpenAI's flagship multimodal model that can process and generate
@@ -371,7 +372,7 @@ support bots to internal knowledge assistants.`,
     answer: `AI is playing a growing role in space exploration — from autonomous navigation
 on Mars rovers to anomaly detection in telescope data.
 
-NASA and ESA use machine learning models to sift through terabytes of satellite
+NASA and ESA use machine learning models to sift through terabytes of satellite data
 imagery and spectral data to identify potentially habitable exoplanets.
 
 SpaceX also uses AI for real-time trajectory optimization and fault detection
@@ -536,393 +537,8 @@ renderFilters();
 renderCards();
 </script>
 
-<!-- =================== END: PASTE UP TO HERE =================== -->
-<!-- =================== Tech and AI Insights =================== -->
+<!-- =================== END Q&A TO HERE =================== -->
 
-<section id="tech-qa" style="
-  background: #0a0a0a;
-  padding: 100px 40px;
-  border-top: 1px solid #1a1a1a;
-">
-
-  <!-- Header -->
-  <div style="text-align:center; margin-bottom: 56px;">
-    <p style="
-      font-size: 11px;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-      color: #555;
-      margin-bottom: 14px;
-      font-family: inherit;
-    ">Updated Daily</p>
-
-    <h2 style="
-      font-size: 36px;
-      font-weight: 700;
-      color: #ffffff;
-      letter-spacing: -1px;
-      margin-bottom: 14px;
-      font-family: inherit;
-    ">Tech &amp; AI Insights</h2>
-
-    <p style="
-      font-size: 15px;
-      color: #555;
-      max-width: 500px;
-      margin: 0 auto 36px;
-      line-height: 1.7;
-      font-family: inherit;
-    ">Handpicked questions and answers on what's happening right now in AI, machine learning, and emerging tech.</p>
-
-    <!-- Search bar -->
-    <div style="
-      max-width: 520px;
-      margin: 0 auto 24px;
-      position: relative;
-    ">
-      <span style="
-        position: absolute;
-        left: 16px;
-        top: 50%;
-        transform: translateY(-50%);
-        color: #444;
-        font-size: 14px;
-        pointer-events: none;
-      ">&#128269;</span>
-      <input
-        id="qa-search"
-        type="text"
-        placeholder="Search topics... e.g. AI, Quantum"
-        oninput="filterQA()"
-        style="
-          width: 100%;
-          background: #111;
-          border: 1px solid #222;
-          border-radius: 8px;
-          color: #ccc;
-          font-size: 14px;
-          padding: 13px 16px 13px 42px;
-          outline: none;
-          font-family: inherit;
-          transition: border-color 0.2s;
-        "
-        onfocus="this.style.borderColor='#444'"
-        onblur="this.style.borderColor='#222'"
-      />
-    </div>
-
-    <!-- Category filter pills -->
-    <div id="qa-filters" style="
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 8px;
-      max-width: 640px;
-      margin: 0 auto;
-    ">
-      <!-- Pills are generated by JS -->
-    </div>
-  </div>
-
-  <!-- Q&A Cards -->
-  <div id="qa-list" style="
-    max-width: 820px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  ">
-    <!-- Cards are generated by JS -->
-  </div>
-
-  <!-- Empty state -->
-  <div id="qa-empty" style="
-    display: none;
-    text-align: center;
-    padding: 60px 20px;
-    color: #444;
-    font-size: 14px;
-    font-family: inherit;
-  ">
-    No results found. Try a different search term.
-  </div>
-
-  <!-- Result count -->
-  <p id="qa-count" style="
-    text-align: center;
-    font-size: 12px;
-    color: #333;
-    margin-top: 36px;
-    font-family: inherit;
-    letter-spacing: 0.5px;
-  "></p>
-
-</section>
-
-
-<script>
-// ============================================================
-//   Should add my DAILY QUESTIONS HERE
-// ============================================================
-// Each entry has:
-//   question : the question text
-//   answer   : the answer paragraph (can be 2-4 sentences)
-//   tag      : category label — shown as a pill badge
-//   date     : when you added it (shown on the card)
-//
-// Add newest entries at the TOP of the array.
-// ============================================================
-const qaData = [
-  // -- AI --
-   {
-    question: "Why is a perfect AI impossible?",
-    answer: `A truly perfect AI is impossible because perfect breaks in a few different ways at once. First, the world is incomplete and messy. An AI never sees everything. It gets limited data, ambiguous language, missing context, and sometimes false information. If the input is imperfect, the output cannot be perfect every time. Second, human goals are not perfectly defined. People say things like be helpful, be fair or make the best decision, but those gaols often conflict, What is fair to one person may feel unfair to another.
-    So even if the AI is very strong, it cannot satisfy all values at once. Third, there are tradeoffs. An AI cannot maximize everything together, speed vs accuracy, creativity vs safety, privacy vs personalization, honesty about uncertainty vs sounding confident. Improving one usually weakens another. Fourth, some problems are fundamentally solvable. In math and computer science, there are limits to computation. Some questions cannot be answered perfectly in general, or cannot be solved efficiently for all cases. Fifth, humans
-    themselves are not perfect judges. We often disagree, change our minds, or want different outcomes in different situations. So perfect according to whom? because the main problem. SO the real goal is not perfect AI. It is useful, reliable, hoenst, aligned, and improving AI. In summary: Perfect AI is impossible because reality is uncertain, human values conflict, and computation itself has hard limits.`,
-    tag: "AI",
-    date: "Apr 24, 2025"
-  },
-  {
-    question: "What is OpenAI's GPT-4o and why does it matter?",
-    answer: "GPT-4o is OpenAI's flagship multimodal model that can process and generate text, audio, and images in a single unified architecture. Unlike earlier models that handled modalities separately, GPT-4o reasons across all three simultaneously, making interactions feel more natural. It was a major step toward models that can see, hear, and respond in real time — enabling use cases like live voice conversations with emotional awareness.",
-    tag: "AI",
-    date: "Apr 23, 2025"
-  },
-  // -- LLM --
-  {
-    question: "What is retrieval-augmented generation (RAG) and why is it widely used in 2025?",
-    answer: "RAG is a technique that connects a large language model to an external knowledge base, allowing it to retrieve relevant documents before generating a response. This dramatically reduces hallucinations because the model is grounding its answers in retrieved facts rather than relying solely on training memory. In 2025, RAG has become standard in enterprise AI applications — from customer support bots to internal knowledge assistants — because it keeps answers accurate without requiring expensive model retraining.",
-    tag: "LLM",
-    date: "Apr 22, 2025"
-  },
-  // -- Space --
-  {
-    question: "How is AI being used in space exploration?",
-    answer: "AI is playing a growing role in space exploration — from autonomous navigation on Mars rovers to anomaly detection in telescope data. NASA and ESA use machine learning models to sift through terabytes of satellite imagery and spectral data to identify potentially habitable exoplanets or geological features. SpaceX also uses AI for real-time trajectory optimization and fault detection during rocket launches.",
-    tag: "Space",
-    date: "Apr 21, 2025"
-  },
-  // -- Quantum --
-  {
-    question: "What is the current state of quantum computing in 2025?",
-    answer: "Quantum computing in 2025 is still largely in the NISQ (Noisy Intermediate-Scale Quantum) era, meaning machines exist but are error-prone and not yet at fault-tolerant scale. Google, IBM, and Microsoft are competing to demonstrate 'quantum advantage' — real-world tasks where quantum processors outperform classical computers. IBM's 1,000+ qubit processors and Microsoft's topological qubit research are the biggest milestones of this cycle, though most quantum applications remain experimental.",
-    tag: "Quantum",
-    date: "Apr 20, 2025"
-  },
-  {
-    question: "Is quantum computing the future of technology?",
-    answer: `yes, but not as a replacement for today's computers. Quantum computing is likely to become a powerful specialized tool that works alongside classical computing, not instead of it.`,
-    tag: "Quantum",
-    date: "Mar 01, 2026"
-  },
-  {
-    question: "Why quantum computing matters?",
-    answer: `First, it solves different kinds of problems. Unlike Classical computers, which use bits (0 or 1). Quantum computers use qubits, which can exist in multiple states at once (called superposition) and influence each other (entanglement). This allows quantum machines to explore many possibilities simultaneously, giving a huge advantage for specific problems. Cryptography - breaking or strengthening encryption. Drug discovery & materials science - simulating molecules accurately. Optimization - logistics, supply chains, 
-    traffic, finance. AI & machine learning - accelerating certain training and sampling tasks. Second, exponential speedups (in narrow areas). For some problems, quantum algorithms offer exponential or dramatic speedups over classical ones. A famous exmaple: factoring large numbers (importing for encryption). That's why companies like IBM, GOOGLE, and MICROSOFT are investing billions into quantum research.`,
-    tag: "Quantum",
-    date: "Mar 01, 2026"
-  },
-  {
-    question: "Why quantum computing is not replacing classical computers",
-    answer: `First, Quantum computers are extremely fragile. Must run near absolute zero. Qubits lose information easily (noise, decoherence). Error correction requires thousands of physical qubits per logical qubit. Right now, we're in the NISQ era (Noisy Intermediate-Scale Quantum). Second, Most everyday tasks don't benefit. Quantum computers are terrible at Web browsing, Mobile apps, Games, Databases, and General software. Our laptop, phone, and cloud servers aren't going anywhere. 
-    So, we have a concept called Hybrid computing: The future looks like: Classical computers -> general-purpose work. Quantum processors -> specialized accelerators. Cloud access -> quantum-as-a-service (QaaS). Similar to how GPUs didn't replace CPUs, but became essential for AI. Timeline (rough, realistic). Now-5 years: Research, education, niche experiments. 5-15 years: Practical quantum advantage in chemistry, optimization. 15+ years: Fault-tolerant quantum computers with real-world impact.
-    Quantum computer is part of the future of technology-but not the whole future. It is a revolutionary tool for specific, high-impact problems, while classical computing remains dominant for everything else.`,
-    tag: "Quantum",
-    date: "Mar 01, 2026",
-  },
-
-  {
-    question: "What are AI agents and why is everyone talking about them?",
-    answer: "AI agents are LLM-powered systems that can autonomously plan, take actions, use tools, and complete multi-step tasks — not just answer questions. Instead of a single query–response loop, an agent can browse the web, write code, run it, read the output, and iterate. Frameworks like LangChain, AutoGen, and CrewAI have made it easier to build agents, and in 2025 companies are racing to deploy them for tasks like software development, research automation, and business workflow management.",
-    tag: "AI",
-    date: "Apr 19, 2025"
-  },
-  // -- Machine Learning --
-  {
-    question: "What is the difference between supervised, unsupervised, and reinforcement learning?",
-    answer: "Supervised learning trains models on labeled examples (input–output pairs) to predict outcomes on new data — like classifying emails as spam. Unsupervised learning finds patterns in unlabeled data — like grouping customers by behavior without predefined categories. Reinforcement learning trains agents through trial and error using reward signals — it's the technique behind game-playing AIs like AlphaGo and is increasingly used to align large language models with human preferences (RLHF).",
-    tag: "ML",
-    date: "Apr 18, 2025"
-  },
-  // -- Tech --
-  {
-    question: "What is edge AI and why is it becoming important?",
-    answer: "Edge AI refers to running machine learning models directly on local devices — phones, sensors, cameras — rather than sending data to the cloud. This matters for latency (instant responses), privacy (data never leaves the device), and reliability (works offline). With Apple's Neural Engine, Qualcomm's AI chips, and models like Phi-3 Mini being optimized for on-device inference, edge AI is moving from niche use cases to mainstream products in 2025.",
-    tag: "Tech",
-    date: "Apr 17, 2025"
-  }
-
-];
-let activeTag = 'All';
-const tagColors = {
-  AI:       { bg: '#0d1a2e', text: '#5b9fff', border: '#1a3060' },
-  ML:       { bg: '#1e0d2e', text: '#c06aff', border: '#3a1a5a' },
-  LLM:      { bg: '#0d2018', text: '#4ddd88', border: '#1a4030' },
-  Space:    { bg: '#0d1820', text: '#4db8ff', border: '#1a3040' },
-  Tech:     { bg: '#1a1a0d', text: '#ccbb44', border: '#3a3a1a' },
-  Quantum:  { bg: '#200d1a', text: '#ff7aaa', border: '#451030' },
-  Cloud:    { bg: '#0d1e1e', text: '#44cccc', border: '#1a3838' },
-  Robotics: { bg: '#1a0e0e', text: '#ff8866', border: '#3a1e1e' },
-};
-function getTagStyle(tag) {
-  const c = tagColors[tag] || { bg: '#1a1a1a', text: '#aaaaaa', border: '#333' };
-  return `background:${c.bg}; color:${c.text}; border:1px solid ${c.border};`;
-}
-function getAllTags() {
-  const tags = ['All', ...new Set(qaData.map(d => d.tag))];
-  return tags;
-}
-function renderFilters() {
-  const container = document.getElementById('qa-filters');
-  container.innerHTML = getAllTags().map(tag => `
-    <button
-      onclick="setTag('${tag}')"
-      id="pill-${tag}"
-      style="
-        background: ${tag === activeTag ? '#fff' : 'transparent'};
-        color: ${tag === activeTag ? '#000' : '#555'};
-        border: 1px solid ${tag === activeTag ? '#fff' : '#2a2a2a'};
-        border-radius: 20px;
-        padding: 6px 16px;
-        font-size: 12px;
-        letter-spacing: 0.8px;
-        cursor: pointer;
-        font-family: inherit;
-        transition: all 0.15s;
-      "
-    >${tag}</button>
-  `).join('');
-
-function setTag(tag) {
-  activeTag = tag;
-  renderFilters();
-  renderCards();
-}
-function filterQA() {
-  renderCards();
-}
-function renderCards() {
-  const query = (document.getElementById('qa-search').value || '').toLowerCase().trim();
-  const list  = document.getElementById('qa-list');
-  const empty = document.getElementById('qa-empty');
-  const count = document.getElementById('qa-count');
-
-  let filtered = qaData;
-
-  if (activeTag !== 'All') {
-    filtered = filtered.filter(d => d.tag === activeTag);
-  }
-
-  if (query) {
-    filtered = filtered.filter(d =>
-      d.question.toLowerCase().includes(query) ||
-      d.answer.toLowerCase().includes(query) ||
-      d.tag.toLowerCase().includes(query) ||
-      d.date.toLowerCase().includes(query)
-    );
-  }
-
-  if (filtered.length === 0) {
-    list.innerHTML = '';
-    empty.style.display = 'block';
-    count.textContent = '';
-    return;
-  }
-
-  empty.style.display = 'none';
-  count.textContent = `Showing ${filtered.length} of ${qaData.length} topics`;
-
-  list.innerHTML = filtered.map((item, i) => `
-    <div
-      class="qa-card-item"
-      style="
-        background: #0f0f0f;
-        border: 1px solid #1c1c1c;
-        border-radius: 10px;
-        overflow: hidden;
-        cursor: pointer;
-        transition: border-color 0.2s;
-      "
-      onmouseover="this.style.borderColor='#2e2e2e'"
-      onmouseout="this.style.borderColor='#1c1c1c'"
-      onclick="toggleAnswer(this)"
-    >
-      <div style="
-        padding: 20px 24px;
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
-        gap: 16px;
-      ">
-        <div style="display:flex; align-items:flex-start; gap:14px; flex:1;">
-          <span style="
-            font-size: 11px;
-            color: #333;
-            font-weight: 600;
-            letter-spacing: 1px;
-            min-width: 26px;
-            padding-top: 2px;
-            font-family: inherit;
-          ">${String(i + 1).padStart(2, '0')}</span>
-          <div>
-            <p style="
-              font-size: 15px;
-              color: #d0d0d0;
-              line-height: 1.5;
-              font-weight: 500;
-              margin: 0 0 6px;
-              font-family: inherit;
-            ">${item.question}</p>
-            <span style="font-size:11px; color:#444; font-family:inherit;">${item.date}</span>
-          </div>
-        </div>
-        <div style="display:flex; align-items:center; gap:10px; flex-shrink:0;">
-          <span style="
-            font-size: 10px;
-            letter-spacing: 1.5px;
-            text-transform: uppercase;
-            padding: 4px 10px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-family: inherit;
-            ${getTagStyle(item.tag)}
-          ">${item.tag}</span>
-          <span class="qa-chevron" style="
-            color: #444;
-            font-size: 12px;
-            transition: transform 0.2s;
-            display: inline-block;
-          ">▾</span>
-        </div>
-      </div>
-
-      <div class="qa-answer-body" style="
-        display: none;
-        padding: 0 24px 22px 64px;
-        color: #777;
-        font-size: 14px;
-        line-height: 1.8;
-        border-top: 1px solid #181818;
-        padding-top: 18px;
-        font-family: inherit;
-      ">${item.answer}</div>
-    </div>
-  `).join('');
-}
-
-function toggleAnswer(card) {
-  const body    = card.querySelector('.qa-answer-body');
-  const chevron = card.querySelector('.qa-chevron');
-  const isOpen  = body.style.display === 'block';
-  body.style.display    = isOpen ? 'none' : 'block';
-  chevron.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
-}
-
-// Init
-renderFilters();
-renderCards();
-</script>
-<!-- =================== END for questions and answers =================== -->
   <!-- TECHNOLOGIES -->
   <section class="portfolio-section" id="section-technologies">
     <div class="ps-inner">

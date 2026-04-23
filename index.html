@@ -248,7 +248,6 @@
     color: #777;
     font-size: 14px;
     line-height: 1.9;
-    white-space: pre-wrap;
     box-sizing: border-box;
   }
   #tech-qa .qa-answer-body.open {
@@ -300,9 +299,15 @@
 </section>
 <script>
 // ============================================================
-// ✏️  ADD YOUR DAILY QUESTIONS HERE — newest at the TOP
+// ADD MY DAILY QUESTIONS HERE — newest at the TOP
 // ============================================================
 const qaData = [
+  {
+    question: "What are you doing, Shaik?",
+    answer: `Why the fuck does that matter to you`,
+    tag: "AI",
+    date: "Apr 03, 2026"
+  },
   {
     question: "Why is a perfect AI impossible?",
     answer: `A truly perfect AI is impossible because perfect breaks in a few different ways at once. First, the world is incomplete and messy. An AI never sees everything. It gets limited data, ambiguous language, missing context, and sometimes false information. If the input is imperfect, the output cannot be perfect every time. Second, human goals are not perfectly defined. People say things like be helpful, be fair, or make the best decision, but those goals often conflict. What is fair to one person may feel unfair to another.
@@ -462,6 +467,17 @@ function tagStyle(tag) {
   return `background:${c.bg}; color:${c.text}; border:1px solid ${c.border};`;
 }
 
+// THIS is the fix — converts your newlines into <br> tags so HTML renders them
+function formatAnswer(text) {
+  return text
+    .trim()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\n\n/g, '<br><br>')
+    .replace(/\n/g, '<br>');
+}
+
 let activeTag = 'All';
 
 function renderFilters() {
@@ -521,7 +537,7 @@ function renderCards() {
           <span class="qa-chevron">&#9662;</span>
         </div>
       </div>
-      <div class="qa-answer-body">${item.answer}</div>
+      <div class="qa-answer-body">${formatAnswer(item.answer)}</div>
     </div>
   `).join('');
 }

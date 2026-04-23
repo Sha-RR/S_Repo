@@ -75,7 +75,468 @@
   <!-- ══════════════════════════════════════
        PORTFOLIO SECTIONS (slide-up panels)
        ══════════════════════════════════════ -->
+<!--
+  ============================================================
+  TECH & AI Q&A SECTION — for sha-rr.github.io/S_Repo/
+  ============================================================
 
+  HOW TO ADD THIS TO YOUR SITE:
+  1. Open your index.html
+  2. Find where you want this section (before the footer works well)
+  3. Paste everything between the START and END markers below
+
+  HOW TO ADD NEW QUESTIONS EVERY DAY:
+  - Scroll to the `const qaData = [...]` array in the <script>
+  - Add a new object at the TOP (newest entries first)
+  - Use backticks ` ` for the answer so you can write on multiple lines
+  - Tags: AI, ML, Tech, Space, LLM, Cloud, Robotics, Quantum (or anything)
+
+  EXAMPLE ENTRY:
+  {
+    question: "Your question here?",
+    answer: `First sentence of your answer.
+
+    Second sentence. Third sentence.
+    You can write across as many lines as you want.`,
+    tag: "AI",
+    date: "Apr 24, 2025"
+  },
+  ============================================================
+-->
+
+
+<!-- =================== START: PASTE FROM HERE =================== -->
+
+<style>
+  #tech-qa {
+    background: #0a0a0a;
+    padding: 100px 40px;
+    border-top: 1px solid #1a1a1a;
+    font-family: inherit;
+  }
+  #tech-qa .qa-header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  #tech-qa .qa-label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 14px;
+  }
+  #tech-qa .qa-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: -1px;
+    margin-bottom: 14px;
+  }
+  #tech-qa .qa-subtitle {
+    font-size: 15px;
+    color: #555;
+    max-width: 500px;
+    margin: 0 auto 36px;
+    line-height: 1.7;
+  }
+  #tech-qa .qa-search-wrap {
+    max-width: 520px;
+    margin: 0 auto 24px;
+    position: relative;
+  }
+  #tech-qa .qa-search-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #444;
+    font-size: 14px;
+    pointer-events: none;
+  }
+  #tech-qa #qa-search {
+    width: 100%;
+    background: #111;
+    border: 1px solid #222;
+    border-radius: 8px;
+    color: #ccc;
+    font-size: 14px;
+    padding: 13px 16px 13px 42px;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.2s;
+    box-sizing: border-box;
+  }
+  #tech-qa #qa-search:focus {
+    border-color: #444;
+  }
+  #tech-qa #qa-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  #tech-qa .qa-pill {
+    background: transparent;
+    color: #555;
+    border: 1px solid #2a2a2a;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s;
+  }
+  #tech-qa .qa-pill.active {
+    background: #fff;
+    color: #000;
+    border-color: #fff;
+  }
+  #tech-qa #qa-list {
+    max-width: 820px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  #tech-qa .qa-card {
+    background: #0f0f0f;
+    border: 1px solid #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  #tech-qa .qa-card:hover {
+    border-color: #2e2e2e;
+  }
+  #tech-qa .qa-card-header {
+    padding: 20px 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  #tech-qa .qa-card-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    flex: 1;
+  }
+  #tech-qa .qa-num {
+    font-size: 11px;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 1px;
+    min-width: 26px;
+    padding-top: 3px;
+  }
+  #tech-qa .qa-question-text {
+    font-size: 15px;
+    color: #d0d0d0;
+    line-height: 1.5;
+    font-weight: 500;
+    margin: 0 0 6px;
+  }
+  #tech-qa .qa-date {
+    font-size: 11px;
+    color: #444;
+  }
+  #tech-qa .qa-card-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  #tech-qa .qa-tag-badge {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+  }
+  #tech-qa .qa-chevron {
+    color: #444;
+    font-size: 12px;
+    display: inline-block;
+    transition: transform 0.25s ease;
+    line-height: 1;
+  }
+  #tech-qa .qa-chevron.open {
+    transform: rotate(180deg);
+  }
+  /* Answer uses max-height animation — no display:none flicker */
+  #tech-qa .qa-answer-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease, padding 0.3s ease;
+    padding: 0 24px 0 64px;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.9;
+    white-space: pre-wrap;
+    box-sizing: border-box;
+  }
+  #tech-qa .qa-answer-body.open {
+    max-height: 1000px;
+    padding: 18px 24px 24px 64px;
+    border-top: 1px solid #181818;
+  }
+  #tech-qa #qa-empty {
+    display: none;
+    text-align: center;
+    padding: 60px 20px;
+    color: #444;
+    font-size: 14px;
+  }
+  #tech-qa #qa-count {
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    margin-top: 36px;
+    letter-spacing: 0.5px;
+  }
+</style>
+
+
+<section id="tech-qa">
+
+  <div class="qa-header">
+    <p class="qa-label">Updated Daily</p>
+    <h2 class="qa-title">Tech &amp; AI Insights</h2>
+    <p class="qa-subtitle">Handpicked questions and answers on what's happening right now in AI, machine learning, and emerging tech.</p>
+
+    <div class="qa-search-wrap">
+      <span class="qa-search-icon">&#128269;</span>
+      <input
+        id="qa-search"
+        type="text"
+        placeholder="Search topics... e.g. AI, Space, LLM, Quantum"
+        oninput="filterQA()"
+      />
+    </div>
+
+    <div id="qa-filters"></div>
+  </div>
+
+  <div id="qa-list"></div>
+  <div id="qa-empty">No results found. Try a different search term.</div>
+  <p id="qa-count"></p>
+
+</section>
+
+
+<script>
+// ============================================================
+// ✏️  ADD YOUR DAILY QUESTIONS HERE — newest at the TOP
+// ============================================================
+// Use backticks for answers to write across multiple lines easily.
+// ============================================================
+
+const qaData = [
+
+  {
+    question: "What is OpenAI's GPT-4o and why does it matter?",
+    answer: `GPT-4o is OpenAI's flagship multimodal model that can process and generate
+text, audio, and images in a single unified architecture.
+
+Unlike earlier models that handled modalities separately, GPT-4o reasons
+across all three simultaneously, making interactions feel more natural.
+
+It was a major step toward models that can see, hear, and respond in real time —
+enabling use cases like live voice conversations with emotional awareness.`,
+    tag: "AI",
+    date: "Apr 23, 2025"
+  },
+
+  {
+    question: "What is retrieval-augmented generation (RAG) and why is it widely used in 2025?",
+    answer: `RAG is a technique that connects a large language model to an external
+knowledge base, allowing it to retrieve relevant documents before generating a response.
+
+This dramatically reduces hallucinations because the model grounds its answers
+in retrieved facts rather than relying solely on training memory.
+
+In 2025, RAG has become standard in enterprise AI applications — from customer
+support bots to internal knowledge assistants.`,
+    tag: "LLM",
+    date: "Apr 22, 2025"
+  },
+
+  {
+    question: "How is AI being used in space exploration?",
+    answer: `AI is playing a growing role in space exploration — from autonomous navigation
+on Mars rovers to anomaly detection in telescope data.
+
+NASA and ESA use machine learning models to sift through terabytes of satellite
+imagery and spectral data to identify potentially habitable exoplanets.
+
+SpaceX also uses AI for real-time trajectory optimization and fault detection
+during rocket launches.`,
+    tag: "Space",
+    date: "Apr 21, 2025"
+  },
+
+  {
+    question: "What is the current state of quantum computing in 2025?",
+    answer: `Quantum computing in 2025 is still in the NISQ (Noisy Intermediate-Scale Quantum) era,
+meaning machines exist but are error-prone and not yet fault-tolerant.
+
+Google, IBM, and Microsoft are competing to demonstrate quantum advantage —
+real-world tasks where quantum processors outperform classical computers.
+
+IBM's 1,000+ qubit processors and Microsoft's topological qubit research
+are the biggest milestones of this cycle.`,
+    tag: "Quantum",
+    date: "Apr 20, 2025"
+  },
+
+  {
+    question: "What are AI agents and why is everyone talking about them?",
+    answer: `AI agents are LLM-powered systems that can autonomously plan, take actions,
+use tools, and complete multi-step tasks — not just answer questions.
+
+Instead of a single query-response loop, an agent can browse the web,
+write code, run it, read the output, and iterate on its own.
+
+Frameworks like LangChain, AutoGen, and CrewAI have made it easier to build
+agents, and companies are racing to deploy them for software development
+and business automation.`,
+    tag: "AI",
+    date: "Apr 19, 2025"
+  },
+
+  {
+    question: "What is the difference between supervised, unsupervised, and reinforcement learning?",
+    answer: `Supervised learning trains models on labeled examples to predict outcomes
+on new data — like classifying emails as spam or not spam.
+
+Unsupervised learning finds patterns in unlabeled data — like grouping customers
+by behavior without predefined categories.
+
+Reinforcement learning trains agents through trial and error using reward signals —
+it is the technique behind AlphaGo and is used to align large language models
+with human preferences (RLHF).`,
+    tag: "ML",
+    date: "Apr 18, 2025"
+  },
+
+  {
+    question: "What is edge AI and why is it becoming important?",
+    answer: `Edge AI refers to running machine learning models directly on local devices —
+phones, sensors, cameras — rather than sending data to the cloud.
+
+This matters for latency (instant responses), privacy (data never leaves the device),
+and reliability (works offline).
+
+With Apple's Neural Engine, Qualcomm's AI chips, and models like Phi-3 Mini
+optimized for on-device inference, edge AI is moving into mainstream products in 2025.`,
+    tag: "Tech",
+    date: "Apr 17, 2025"
+  }
+
+];
+
+
+// ============================================================
+// ⚙️  ENGINE — no need to edit below this line
+// ============================================================
+
+const tagColors = {
+  AI:       { bg: '#0d1a2e', text: '#5b9fff', border: '#1a3060' },
+  ML:       { bg: '#1e0d2e', text: '#c06aff', border: '#3a1a5a' },
+  LLM:      { bg: '#0d2018', text: '#4ddd88', border: '#1a4030' },
+  Space:    { bg: '#0d1820', text: '#4db8ff', border: '#1a3040' },
+  Tech:     { bg: '#1a1a0d', text: '#ccbb44', border: '#3a3a1a' },
+  Quantum:  { bg: '#200d1a', text: '#ff7aaa', border: '#451030' },
+  Cloud:    { bg: '#0d1e1e', text: '#44cccc', border: '#1a3838' },
+  Robotics: { bg: '#1a0e0e', text: '#ff8866', border: '#3a1e1e' },
+};
+
+function tagStyle(tag) {
+  const c = tagColors[tag] || { bg: '#1a1a1a', text: '#aaa', border: '#333' };
+  return `background:${c.bg}; color:${c.text}; border:1px solid ${c.border};`;
+}
+
+let activeTag = 'All';
+
+function renderFilters() {
+  const tags = ['All', ...new Set(qaData.map(d => d.tag))];
+  document.getElementById('qa-filters').innerHTML = tags.map(tag => `
+    <button class="qa-pill ${tag === activeTag ? 'active' : ''}" onclick="setTag('${tag}')">${tag}</button>
+  `).join('');
+}
+
+function setTag(tag) {
+  activeTag = tag;
+  renderFilters();
+  renderCards();
+}
+
+function filterQA() {
+  renderCards();
+}
+
+function renderCards() {
+  const query = (document.getElementById('qa-search').value || '').toLowerCase().trim();
+  const list  = document.getElementById('qa-list');
+  const empty = document.getElementById('qa-empty');
+  const count = document.getElementById('qa-count');
+
+  let filtered = qaData;
+  if (activeTag !== 'All') filtered = filtered.filter(d => d.tag === activeTag);
+  if (query) filtered = filtered.filter(d =>
+    d.question.toLowerCase().includes(query) ||
+    d.answer.toLowerCase().includes(query) ||
+    d.tag.toLowerCase().includes(query) ||
+    d.date.toLowerCase().includes(query)
+  );
+
+  if (filtered.length === 0) {
+    list.innerHTML = '';
+    empty.style.display = 'block';
+    count.textContent = '';
+    return;
+  }
+
+  empty.style.display = 'none';
+  count.textContent = `Showing ${filtered.length} of ${qaData.length} topics`;
+
+  list.innerHTML = filtered.map((item, i) => `
+    <div class="qa-card" onclick="toggleAnswer(this)">
+      <div class="qa-card-header">
+        <div class="qa-card-left">
+          <span class="qa-num">${String(i + 1).padStart(2, '0')}</span>
+          <div>
+            <p class="qa-question-text">${item.question}</p>
+            <span class="qa-date">${item.date}</span>
+          </div>
+        </div>
+        <div class="qa-card-right">
+          <span class="qa-tag-badge" style="${tagStyle(item.tag)}">${item.tag}</span>
+          <span class="qa-chevron">&#9662;</span>
+        </div>
+      </div>
+      <div class="qa-answer-body">${item.answer}</div>
+    </div>
+  `).join('');
+}
+
+function toggleAnswer(card) {
+  const body    = card.querySelector('.qa-answer-body');
+  const chevron = card.querySelector('.qa-chevron');
+  body.classList.toggle('open');
+  chevron.classList.toggle('open');
+}
+
+renderFilters();
+renderCards();
+</script>
+
+<!-- =================== END: PASTE UP TO HERE =================== -->
 <!-- =================== Tech and AI Insights =================== -->
 
 <section id="tech-qa" style="

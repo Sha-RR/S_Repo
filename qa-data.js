@@ -1,5 +1,21 @@
 const qaData = [
   {
+    question: "The fastest-growing job for young workers, LinkedIn says.",
+    answer: `As the rise of artificial intelligence stirs anxiety over the technology taking people's jobs, AI is
+    also opening pathways to new careers, according to LinkedIn.
+
+    The fastest-growing job title for young workers on the networking platform is "AI engineer," a recent report from
+    the company found. LinkedIn analyzed millions of member profiles to determine the number of entry-level workers
+    hired over the last three years and the roles they were hired to fill.
+    
+    Involving building and running AI products, integrating Large Language Models (LLMs) into workflows, and evaluating
+    /updating models to solve business challenges and improve efficiency.
+    Primarily hired by tech companies, followed by financial services, with opportunities in defense, universities, 
+    and consulting, highlighting the need for AI literacy to enter the labor market.`,
+    tag: "Tech",
+    date: "Mar 03, 2026"
+  },
+  {
     question: "Jobs that cannot be replaced by AI, new study.",
     answer: `Hands-On & Physical Work: Jobs like construction, agriculture, and skilled trades rely on manual
     dexterity, situational awareness, and adaptability, making them difficult for AI to replace.

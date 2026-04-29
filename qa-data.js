@@ -1,5 +1,31 @@
 const qaData = [
   {
+    question: "The AI boom caught everyone off guard except Microsoft.",
+    answer: `It didn't look like speed. Instead, it was preparation.
+    In early 2023, as generative AI tools surged into the mainstream, a familiar pattern unfolded across the tech world.
+    Companies scrambled to respond. Press releases appeared overnight, each one racing to attach "AI-powered" to existing
+    products, whether or not anything meaningful had actually changed.
+    Inside many organizations, the urgency was palpable. Leadership teams convened emergency meetings. Product roadmaps
+    reshuffled. Marketing departments were told to move faster.
+
+    But Microsoft stood out for a different reason.
+    While it moved quickly - embedding AI into products like Office, Azure, and GitHub - the tone felt measured, not
+    reactive. There was no visible scramble and no sudden identity shift. Instead, its actions suggested something
+    far less dramatic and far more powerful: preparation. That contrast is where the real leadership lesson begins.
+
+    By the time generative AI became a headline, Microsoft had already invested billions in infrastructure, cloud
+    capacity, and partnerships. From the outside, it can look like overnight brilliance. Inside, it's usually years of
+    positioning.
+    Startups can move fast because they have little to lose. Large enterprises move carefully because they have everything
+    to lose. Large enterprises move carefully because they have everything to lose. Microsoft's customers are governments,
+    hospitals, and Fortune 500 companies. They don't want flashy experiments. Instead, they want stability with progress
+    layered on top.
+    There's something instructive about Microsoft's tone over the past few years. Measured, direct, less hype, and more
+    rollout. That restraint signals confidence.`,
+    tag: "Tech",
+    date: "Apr 28, 2026"
+  },
+  {
     question: "AI agent deletes company's entire database in seconds.",
     answer: `An agent powered by Anthropic's leading Claude model has deleted a company's entire production database, 
     leaving customers unable to access key data.

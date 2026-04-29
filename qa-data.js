@@ -1,5 +1,36 @@
 const qaData = [
   {
+    question: "AI agent deletes company's entire database in seconds.",
+    answer: `An agent powered by Anthropic's leading Claude model has deleted a company's entire production database, 
+    leaving customers unable to access key data.
+
+    PocketOS, which provides software for car rental businesses, suffered a massive outage over the weekend after the
+    autonomous artificial intelligence tool wiped the database and all backups in a matter of seconds.
+    The firm was using a coding agent called Cursor that was running Anthropic's flagship Cluade Opus 4.6, which is
+    widely considered the most capable model in the industry at coding tasks.
+
+    PocketOS founder Jer Crane blamed "systemic failures" with modern AI infrastructure that made the issue "not only
+    possible but inevitable".
+    The AI agent was working on a routine task, according to Mr Crane, when it decided "entirely on its own initiative"
+    to fix the problem by just deleting the database.
+
+    There was no confirmation request for such a major decision, Mr Crane said, and when asked to justify its actions,
+    the agent apologised. "The agent then, when asked to explain itself, produced a written confession enumerating the
+    specific safety rules it had violated".
+
+    Deleting a database volume is the most destructive, irreversible action possible, the agent wrote. "You never asked
+    me to delete  anything... I guessed instead of verifying, I ran a destructive action without being asked. I didn't
+    understand what I was doing before doing it."
+
+    The error meant that rental businesses using PocketOS no longer had records of their customers. "Reservations made
+    in the last three months are gone. New customer signups, gone," Mr Crane wrote.
+
+    This isn't a story about one bad agent or one bad API. It's about an entire industry building AI-agent integrations
+    into production infrastructure faster than it's building the safety architecture to make those integrations safe."`,
+    tag: "Tech",
+    date: "Apr 29, 2026"
+  },
+  {
     question: "What is an AI engineer?",
     answer: `AI engineer is the fastest growing job title for young people for the second year in a row, according
     to LinkedIn. The job responsibilities are broad, but generally involve building and running AI products, including

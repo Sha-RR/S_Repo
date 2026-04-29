@@ -1,5 +1,16 @@
 const qaData = [
   {
+    question: "What is an AI engineer?",
+    answer: `AI engineer is the fastest growing job title for young people for the second year in a row, according
+    to LinkedIn. The job responsibilities are broad, but generally involve building and running AI products, including
+    AI agents and Large Language Models (LLMs) and integrating them into a business's workflow.
+    "Ultimately, it comes down to building models, meaning that they're building something that can make a decision or
+    make some inference or identify some patterns, and then they need to be able to evaluate those models and update
+    them accordingly."`,
+    tag: "AI",
+    date: "Mar 03, 2026"
+  },
+  {
     question: "The fastest-growing job for young workers, LinkedIn says.",
     answer: `As the rise of artificial intelligence stirs anxiety over the technology taking people's jobs, AI is
     also opening pathways to new careers, according to LinkedIn.
@@ -7,7 +18,10 @@ const qaData = [
     The fastest-growing job title for young workers on the networking platform is "AI engineer," a recent report from
     the company found. LinkedIn analyzed millions of member profiles to determine the number of entry-level workers
     hired over the last three years and the roles they were hired to fill.
-    
+
+    Getting started and breaking into the labor market right now probably does require a certain amount of AI aptitude,
+    or AI literacy, to get ahead, because companiesa re increasingly looking for folks who can bring that skill into
+    their company, help them actually scale up and figure out what they want to do and what the best use cases for AI are.
     Involving building and running AI products, integrating Large Language Models (LLMs) into workflows, and evaluating
     /updating models to solve business challenges and improve efficiency.
     Primarily hired by tech companies, followed by financial services, with opportunities in defense, universities, 

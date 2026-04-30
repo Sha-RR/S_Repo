@@ -1,5 +1,32 @@
 const qaData = [
   {
+    question: "Companies are rushing to deploy AI agents. The smart ones are doing something crucial first.",
+    answer: `AI agents are set to transform the workplace, but companies need to take a key step to ensure success.
+
+    Sridhar Ramaswamy, Snowflake's CEO, shared that story with me as an illustration of where enterprise AI is heading-
+    not just toward the data teams that have historically owned these tools, but toward the people who actually run
+    day-to-day operations. "We now get to create functionality that everybody can use in their daily life, just to be
+    more effective at what they do."
+    Last month, Snowflake, the AI data cloud company that helps enterprises centralize their data and build AI applications
+    on top of it, backed that vision with a product: Project SnosWork. It's an autonomous enterprise AI platform that
+    launched in research preview on March 18, and is designed to help non-technical business users automate complex, 
+    multi-step workflows without touching a dashboard or filling a ticket with the data team. A sales operations manager, 
+    for instance, could ask the system to reprioritize territories, generate a board-ready pitch deck, and draft client
+    follow-up emails from a single interface.
+
+    The big question across the business world today is no longer whether AI agents are coming to your business. They are
+    already here. The big question is whether your business is actually ready for them.
+    For most companies, the honest answer is no.
+
+    The AI readiness gap
+    A Capgemini survey of 1,500 senior executives found that only 2% of organizations have deployed AI agents at full scale.
+    More revealing: Trust in autonomous AI agents has been failing, dropping from 43% to 27% among executives in just one
+    year. The reasons-lack of transparency, ethical concerns, and limited understanding of how these systems work-point
+    to something more fundamental than general skepticism about the technology.`,
+    tag: "Tech",
+    date: "Mar 04, 2026"
+  },
+  {
     question: "The AI boom caught everyone off guard except Microsoft.",
     answer: `It didn't look like speed. Instead, it was preparation.
     In early 2023, as generative AI tools surged into the mainstream, a familiar pattern unfolded across the tech world.

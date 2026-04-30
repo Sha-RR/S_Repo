@@ -1,5 +1,25 @@
 const qaData = [
   {
+    question: "Are we losing our minds to AI?",
+    answer: `AI now helps with wedding toasts, tax returns, and processing the trauma of war. The technology's generality
+    lets it occupy roles that used to be human-only: assistant, tutor, friend, lover, therapist. It is endlessly patient,
+    always available, and - unlike any prior tool - an active participant in our cognitive lives.
+    
+    While past tools let us externalize discrete mental processes-notebooks for memory, calculators for computation, maps
+    for navigation-AI widens the aperture. Now, summarizing and analyzing information, generating ideas, and making decisions
+    can all be offloaded, too. "It's starting to creep into the things we thought were cognitive offloading," or the practice
+    of taking external action to make mental tasks easier.
+    
+    Although the creators of these AI tools describe them as “thought partners” and “collaborators,” the role AI plays in our
+    lives is often stranger. With its jagged but expansive knowledge, ceaseless attention, and persuasive tone, AI dotes on
+    us while asking for nothing but our data in return. This produces a structural asymmetry: no prior relationship, with
+    tools or people, has this shape.
+
+    This new relationship is already reshaping education and knowledge work. Is it reshaping us, too?`,
+    tag: "Tech",
+    date: "Mar 04, 2026"
+  },
+  {
     question: "A new era of AI crime has arrived with Anthropic's Mythos.",
     answer: `Ever since the launch of ChatGPT, top artificial-intelligence labs have been embroiled in a cutthroat
     competition to one-up each other with powerful new features. But Anthropic's Cluade Mythos model shows that these

@@ -1,5 +1,25 @@
 const qaData = [
   {
+    question: "What is the real problem with AI agents?",
+    answer: `The real problem is data.
+
+    Fewer than one in five enterprises report high data maturity, per the same Capgemini research. That means the majority
+    of companies rushing to deploy AI agents are building on top of data that is inconsistent, ungoverned, or simply not
+    ready to support autonomous action. And that often results in inefficiencies and amplified risks.
+    
+    WHAT IS GETTING RIGHT BEFORE YOU DEPLOY?
+    For business leaders watching this space, SnowWork is a reality check. It forces a question everyone should be asking
+    right now: If an AI agent had full access to our data today, what would it actually do with it? For most organizations,
+    that question is uncomfortable, and that discomfort is the point.
+    If you can not articulate how an AI agent moves, then you're not ready to deploy one.
+    The companies getting the most out of AI agents right now are not the ones that move fastest. They're the ones that
+    did the unglamorous work first-cleaning up data definitions, tightening access controls, and building the audit layer
+    that makes autonomous execution trustworthy. That work may not generate headlines. But it's the difference between an
+    AI agent that compounds your competitive advantage and one that compounds your exposure.`,
+    tag: "Tech",
+    date: "Mar 04, 2026"
+  },
+  {
     question: "Companies are rushing to deploy AI agents. The smart ones are doing something crucial first.",
     answer: `AI agents are set to transform the workplace, but companies need to take a key step to ensure success.
 

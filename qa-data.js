@@ -1,5 +1,27 @@
 const qaData = [
   {
+    question: "If AI disappears- that's when the real impact begins.",
+    answer: `When was the last time someone told you they're building a website "on the internet?"
+    OR
+    "Let's put this in our electricity-powered fridge?"
+    In either situation, you'd likely back away slowly and go find help.
+    And that, in effect, is where I think we're headed when it comes to talking about use cases for AI.
+    Like the internet and electricity, we soon won't talk about AI anyore, not becuase it vanished, but because it vanished,
+    but because it has become a permanent layer of reality.
+    That distinction is the difference between a product and a utility. Products are destinations. You go to them, you
+    evaluate them, you talk about them. Utilities disappear into the background and power things in new ways. You do not
+    "use electricity" as an experience; you build with it, rely on it, and only notice it when it is missing.
+
+    I believe that AI is on the same path. As long as it's framed as a standalone product, it invites comparison, hype,
+    and disappointment. But once it becomes a utility layer, it stops being the point and starts enabling the point.
+    That's when the conversation shifts from "what model are you using?" to "what are you actually able to do now that you
+    couldn't before?"
+    This shift from product to utility creates what I think of as an intelligence grid, a foundational layer of AI capability
+    that powers everything else, much like the electrical grid powers modern life without us thinking about it.`,
+    tag: "AI",
+    date: "Mar 04, 2026"
+  },
+  {
     question: "Are we losing our minds to AI?",
     answer: `AI now helps with wedding toasts, tax returns, and processing the trauma of war. The technology's generality
     lets it occupy roles that used to be human-only: assistant, tutor, friend, lover, therapist. It is endlessly patient,

@@ -1,5 +1,36 @@
 const qaData = [
   {
+    question: "More and more businesses are struggling to deal with uncontrolled AI.",
+    answer: `Nearly three-quarters of enterprises' AI usage lacks proper oversight.
+    Workers are driving even more AI adoption, shadow AI, and an "AI execution gap."
+    Regulations will require businesses to have more governance and accountability going forward.
+
+    New research from Lenovo has claimed companies are no longer facing problems with AI adoption - investments continue
+    to soar, but workers are failing to adopt uniformly, and companies are battling with good governance.
+    At the moment, more than 70% of enterprise AI usage lacks proper oversight, which creates an "AI execution gap,"
+    risking security and proper control.
+    Lenovo's data has found that more than 7 in 10 workers use AI weekly, and up to one in three use it outside of IT
+    governance.
+
+    AI adoption isn't the issue; it's governance
+
+    With shadow AI on the rise, around three in five (61%) IT leaders are reporting increased AI-related threats, and yet
+    only 31% feel confident in managing them. 
+    Even employees (43%0 worry about data exposure caused by AI despite shadow AI usage, suggesting they could be unhappy
+    With current organizational governance, tool access, and training.
+    Lenovo says a "two-speed workforce" is emerging, whereby some workers use secure AI tools while others tap into
+    unmanaged, unauthorized ones, but more importantly, attack surfaces are expanding as a result, and the poor visibility
+    is making it hard for companies to scale their AI deployments effectively.
+    Looking ahead, companies are faced with two distinct and opposing problems, with AI usage largely employee-led and 80%
+    of workers expecting AI usage to increase over the next year, businesses across the UK and Europe will also face 
+    increased regulatory pressure in terms of governance, audibility and risk management.
+
+    Usage is growing faster than organizations can control or secure it. Digital Workplace Solution VP and GM Rakshit Ghura
+    concluded. Without that control, AI introduces as much risk and cost as it does opportunity.`,
+    tag: "Tech",
+    date: "Mar 04, 2026"
+  },
+  {
     question: "If AI disappears- that's when the real impact begins.",
     answer: `When was the last time someone told you they're building a website "on the internet?"
     OR

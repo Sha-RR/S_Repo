@@ -1,5 +1,32 @@
 const qaData = [
   {
+    question: "Musk warns AI could end humanity in OpenAI trial.",
+    answer: `Elon Musk used his testimony in his lawsuit against OpenAI to warn that artificial intelligence could wipe
+    out humanity, framing the case as a moral battle over the company's shift from nonprofit to for-profit. He accused
+    OpenAI's leaders of betraying its founding mission and likened the change to "stealing a charity." His remarks also
+    revealed a sharp turn on cryptocurrency, calling most coins scams despite Tesla's large Bitcoin holdings.
+
+    Musk frames the OpenAI case as a moral fight
+    In Oakland federal court, Elon Musk accused OpenAI of breaking both written and verbal commitments to remain a non
+    profit, telling jurors, "You can't just steal a charity." He recounted the organization's founding as a counter
+    weight to concentrated AI power, contrasting its current Microsoft-backed for-profit model with the mission he says
+    he funded. His testimony painted the dispute less as a corporate spat and more as a breach of public trust.
+
+    Dire AI warning delivered under oath
+    Musk reiterated his long-held belief that uncontrolled AI could end humanity, telling jurors the risk is existential.
+    While he has made similar statements publicly, delivering them in a federal trial could influence how jurors assess
+    his credibility on a legal issue. The warning came as he linked AI's trajectory to broader societal stakes, including
+    economic collapse if AI and robotics fail to boost productivity.
+
+    Tweets and past statements under scrutiny
+    Musk faced cross-examination over past tweets that appeared to contradict his courtroom claims, including a recent
+    post suggesting Tesla would lead in AGI development despite telling jurors otherwise. He also repeated his claim of
+    donating $100 million to OpenAI, though records indicate $38 million in cash contributions, with Musk arguing his
+    reputation made up the rest. These inconsistencies may factor into how the jury views his reliability.`,
+    tag: "Tech",
+    date: "Apr 30, 2026"
+  },
+  {
     question: "More and more businesses are struggling to deal with uncontrolled AI.",
     answer: `Nearly three-quarters of enterprises' AI usage lacks proper oversight.
     Workers are driving even more AI adoption, shadow AI, and an "AI execution gap."

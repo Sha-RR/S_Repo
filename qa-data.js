@@ -1,5 +1,34 @@
 const qaData = [
   {
+    question: "How to run a billion-parameter Llama model offline on a laptop?",
+    answer: `Running a large language model (LLM) like Llama offline on a laptop is achievable using quantization.
+    Quantization is a process that compresses model weights so they fit into consumer-grade RAM and VRAM.
+    Most modern laptops can handle a billion-parameter range (like Llama 3.2 or 3B models).
+
+    1. Choose the Software
+    The easiest way to get started is by using a specialized "runne" (Software) that handles the backend complexity.
+    Then, we have three options:
+    
+    Option A. LM Studio (Easiest / GUI)
+    Best if we want a "click-and-play" experience similar to ChatGPT but 100% offline. 
+    1. Download LM Studio.
+    2. Search for "Llama 3.2" in the search bar.
+    3. Look for versions labeled GGUF (the standard format for laptop CPU/GPU inference).
+    4. Download the model and click "Load Model" to start chatting.
+
+    OPTION B. Ollama (This is Best for Developers)
+    Best if you want a lightweight service that runs in the background and can be accessed via terminal or API.
+    1. Download and install Ollama.
+    2. Open your terminal and type: ollama run llama3.2:1b
+    3. The model will download automatically and open an interactive chat prompt in your terminal.
+
+    OPTION C. GPT4All
+    It is an open-source, privacy-focused desktop application that is highly optimized for CPUs. It is excellent if
+    the laptop doesn't have a dedicated NVIDIA GPU.`,
+    tag: "Tech",
+    date: "Mar 04, 2026"
+  },
+  {
     question: "Musk warns AI could end humanity in OpenAI trial.",
     answer: `Elon Musk used his testimony in his lawsuit against OpenAI to warn that artificial intelligence could wipe
     out humanity, framing the case as a moral battle over the company's shift from nonprofit to for-profit. He accused

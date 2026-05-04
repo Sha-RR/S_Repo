@@ -1,5 +1,7 @@
 const qaData = [
   {
+    
+  {
     question: "How to run a billion-parameter Llama model offline on a laptop?",
     answer: `Running a large language model (LLM) like Llama offline on a laptop is achievable using quantization.
     Quantization is a process that compresses model weights so they fit into consumer-grade RAM and VRAM.
@@ -24,12 +26,12 @@ const qaData = [
 
     OPTION C. GPT4All
     It is an open-source, privacy-focused desktop application that is highly optimized for CPUs. It is excellent if
-    the laptop doesn't have a dedicated NVIDIA GPU.,
+    the laptop doesn't have a dedicated NVIDIA GPU.
 
     Why Run Locally?
     1. Privacy: No data leaves your machine. You can process sensitive documents or personal data without fear.
     2. No Latency: You are not dependent on an internet connection or server queues.
-    3. Cost: Once downloaded, it is free to use forever.
+    3. Cost: Once downloaded, it is free to use forever.`,
     tag: "Tech",
     date: "Mar 04, 2026"
   },

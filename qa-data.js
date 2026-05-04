@@ -1,6 +1,39 @@
 const qaData = [
   {
-    
+    question: "What is Model Quantization?",
+    answer: `Quantization is the process of compressing an AI model by reducing the precision of its internal numbers.
+
+    AI models are typically built using "high-precision" numbers (32-bit or 16-bit floats). These numbers allow for
+    extreme detail but take up a massive amount of space. Quantization rounds these numbers down to lower precision
+    formats (like 8-bit or 4-bit integers).
+    "Think of a high-resolution 4K photo. It's beautiful but takes up 20MB. If you compress it to a high-quality JPEG,
+    it might only take up 2MB. To the human eye, it looks almost identical, but it is much easier to store and share.
+    Quantization is that "JPEG compression" for AI.
+
+    Why is it important?
+    1. Hardware Accessibility
+    Without quantization, a 70-billion-parameter model would require nearly 140GB of VRAM just to load the hardware that 
+    costs tens of thousands of dollars. Quantizing that same model to 4-bit drops the requirement to about 40GB, making
+    it possible to run on high-end consumer GPUs or professional workstations.
+
+    2. Speed.
+    Lower-precision numbers require less "math" for your computer to process. When a model is quantized, the hardware
+    can perform operations much faster, leading to higher tokens-per-second. This is the difference between a chatbot
+    that "types" in real-time and one that makes you wait.
+
+    3. Energy & Cost Efficiency.
+    For Users: It allows you to run powerful AI on your own laptop without needing a constant, expensive internet
+    connection to a cloud provider.
+    For companies: It slashes the cost of running AI servers. Less memory and less processing power mean lower electricity
+    bills and fewer expensive chips are needed to serve the same number of users.
+
+    4. Edge Computing (AI Everywhere).
+    Quantization is the reason we have AI on smartphones, smartwatches, and IoT devices. By shrinking the model size, we
+    can fit "intelligence" into small, battery-powered devices that do not have the luxury of a massive power grid or
+    cooling systems.`,
+    tag: "Tag",
+    date: "Mar 05, 2026"
+  },
   {
     question: "How to run a billion-parameter Llama model offline on a laptop?",
     answer: `Running a large language model (LLM) like Llama offline on a laptop is achievable using quantization.

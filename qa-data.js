@@ -31,7 +31,7 @@ const qaData = [
     Quantization is the reason we have AI on smartphones, smartwatches, and IoT devices. By shrinking the model size, we
     can fit "intelligence" into small, battery-powered devices that do not have the luxury of a massive power grid or
     cooling systems.`,
-    tag: "Tag",
+    tag: "Tech",
     date: "Mar 05, 2026"
   },
   {

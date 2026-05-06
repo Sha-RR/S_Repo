@@ -1,4 +1,5 @@
 const qaData = [
+  
   {
     question: "What is Model Quantization?",
     answer: `Quantization is the process of compressing an AI model by reducing the precision of its internal numbers.

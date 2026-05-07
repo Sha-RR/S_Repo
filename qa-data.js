@@ -26,7 +26,7 @@ const qaData = [
     doesn't perform like a "thinking human" immediately, leadership loses confidence.
     => High Compute Costs: As seen throughout 2025, the rising cost of GPUs and compute power has made many projects
     financially unsustainable before they can even prove their worth.`,
-    tag: "Tech",
+    tag: "AI",
     date: "Mar 05, 2026"
   },
   {

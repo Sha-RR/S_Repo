@@ -1,5 +1,45 @@
 const qaData = [
-  
+  {
+    question: "How are companies actually making money?",
+    answer: `A company making money is not just about selling a product for more than it costs to make. Modern businesses
+    especially in 2026, use a mix of several different products or services to keep the business running.
+
+    1. The Infrastructure "Tax" (Cloud & AI)
+    In the current market, the biggest winners are not necessarily the ones building the coolest apps; they are the ones
+    providing the tools everyone else needs to survive.
+    => Companies like Google, Microsoft, and Amazon make billions by renting out computing power. As other businesses
+    rush to integrate AI, they have to pay these "Big Tech" firms for the server space and chips to run it.
+    => Even if a company's main product is search or social media, they are often making their real "new" money by selling
+    enterprise AI tools (like Copilot or Gemini) to other businesses.
+
+    2. The Loss Leader Strategy
+    Many companies that we use daily actually lose money on the product we see, just to get you into their ecosystem.
+    => Hardware: A printer might be sold at a loss because the company knows it will make more profit on the ink.
+    => For example, startups often burn through investor cash to offer cheap services, aiming to kill off competition.
+    Once they are the only ones left, they turn the "profit switch" by raising prices or introducing ads.
+    
+    3. Turning Attention into Data
+    If you are not paying for the product, you are the product.
+    => Ad Revenue: The best example. Companies offer free services to aggregate human attention. They can sell "access"
+    to your eyes to advertisers with surgical precision based on your data.
+    => Data Licensing: Some companies make money by selling anonymized versions of their user data to researchers, hedge
+    funds, or AI training companies.
+
+    4. Recurring Revenue (Subscription)
+    The shift from "ownership' to "access" has been the biggest money-maker of the last decade.
+    => SaaS: Instead of buying a software disc once, you now pay on a monthly basis forever. Predictable cash flow, which
+    investors love because it makes the company's value easier to calculate.
+    => Think of Amazon Prime. The shipping might be "free", but the subscription fee ensures you keep shopping exclusively
+    with them.
+
+    5. Efficiency
+    Lately, companies are making money not just by earning more, but by spending significantly less.
+    => Automation: Replacing manual tasks with AI workflows.
+    => Operational Trimming: As seen in 2025-2026, many companies are conducting layoffs and "getting lean" to redirect
+    that saved money into high-growth areas like AI infrastructure.`,
+    tag: "Tech".
+    date: "Mar 05, 2026"
+  },
   {
     question: "What is Model Quantization?",
     answer: `Quantization is the process of compressing an AI model by reducing the precision of its internal numbers.

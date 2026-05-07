@@ -40,7 +40,7 @@ const qaData = [
     => Automation: Replacing manual tasks with AI workflows.
     => Operational Trimming: As seen in 2025-2026, many companies are conducting layoffs and "getting lean" to redirect
     that saved money into high-growth areas like AI infrastructure.`,
-    tag: "Tech".
+    tag: "Tech",
     date: "Mar 05, 2026"
   },
   {

@@ -1,5 +1,8 @@
 const qaData = [
   {
+    question: "Why are most of the business AI projects currently failing?",
+  },
+  {
     question: "How are companies actually making money?",
     answer: `A company making money is not just about selling a product for more than it costs to make. Modern businesses
     especially in 2026, use a mix of several different products or services to keep the business running.

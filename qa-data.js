@@ -1,5 +1,35 @@
 const qaData = [
   {
+    question: "Why are most of the business AI projects currently failing?",
+    answer: `AI is often hailed as a golden bullet for business efficiency, industry data from 2025 and 2026 suggests
+    a sobering reality: between 70% and 80% of AI projects fall short of their goals, with some estimates suggesting up
+    to 95% fail to deliver a significant return on investment.
+    The failure is rarely due to the intelligence of AI itself, but rather the strategic environment around it.
+
+    => Poor Data Quality: Models trained on messy, inconsistent, or siloed data produce unreliable results. Research
+    indicates that 60% of projects without AI-ready data will be abandoned this year.
+    => Cleaning: Data scientists often spend up to 80% of their time cleaning data rather than building models, which
+    balloons costs and slows down delivery.
+    => Technology vs Business Led: Projects often start with "Let's use AI" instead of "What specific workflow is broken?"
+    This results in "science projects" that look impressive in a lab that have no clear business utility.
+    => ROI Measurement: Traditional financial metrics often fail to capture AI's value, which might be in intangible areas
+    like improved customer experience or faster decision-making. When a CFO doesn't see immediate cash savings, the
+    project gets the axe.
+    => Stability Issues: What works on a small dataset with a few users often breaks when integrated into complex,
+    enterprise-wide systems.
+    => Integration Complexity: Connecting modern AI models to legacy "tech debt" systems is much harder and more expensive
+    than initially anticipated.
+    => The Skill Gap: Roughly 58% of businesses report that a lack of internal AI expertise hinders their ability to scale.
+    => Trust and Adoption: Employees often resist AI tools due to fear of job replacement or a lack of understanding of 
+    how the tool works.
+    => The Hype Penalty: Companies often underestimate the true cost and time required for implementation. When an AI
+    doesn't perform like a "thinking human" immediately, leadership loses confidence.
+    => High Compute Costs: As seen throughout 2025, the rising cost of GPUs and compute power has made many projects
+    financially unsustainable before they can even prove their worth.`,
+    tag: "Tech",
+    date: "Mar 05, 2026"
+  },
+  {
     question: "How are companies actually making money?",
     answer: `A company making money is not just about selling a product for more than it costs to make. Modern businesses
     especially in 2026, use a mix of several different products or services to keep the business running.

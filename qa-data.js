@@ -11,6 +11,23 @@ const qaData = [
     => Medical records: AI chatbots also aren't medical professionals and shouldn't be relied upon for medical advice.
     You probably don't want your medical records to be used to train LLMs plus, uploading them exposes them to
     potential data breaches.
+    => Personally identifiable information: AI prompts should never include information like your name, address, email,
+    phone number, birth date, Social Security number, passport number, or any other data that could be used to steal
+    your identity.
+    => General health information: In addition to keeping your sensitive medical records private, you should avoid
+    giving chatbots seemingly benign information about your health that could be used to profile you.
+    => Mental health concerns: Another thing your chatbot isn't is a therapist. AI has been unhelpful at best and 
+    harmful at worst when it comes to mental health. Even with updates intended to protect users in crisis, chatbots
+    aren't a replacement for real, human support.
+    => Photos: AI image editing is popular, but that doesn't mean it's without risk. You may not want your personal
+    photos used for training purposes, and image metadata contains information like your GPS location. At the very
+    least, avoid uploading images of people (especially minors), and consider stripping EXIF data before sharing.
+    => Company documents: AI may be useful for summarizing documents, creating presentations, drafting emails, and
+    completing other work-related tasks more quickly, but you should use caution when uploading files containing
+    sensitive company information to a chatbot. Your employer may even have a policy prohibiting it.`,
+    tag: "AI",
+    date: "Mar 06, 2026"
+  },
   {
     question: "AGI CPU",
     answer: `In early 2026, Arm launched the Arm AGI CPU, its first-ever production silicon designed specifically for

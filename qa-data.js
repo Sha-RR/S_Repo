@@ -1,5 +1,7 @@
 const qaData = [
   {
+    
+  {
     question: "Why are most of the business AI projects currently failing?",
     answer: `AI is often hailed as a golden bullet for business efficiency, industry data from 2025 and 2026 suggests
     a sobering reality: between 70% and 80% of AI projects fall short of their goals, with some estimates suggesting up

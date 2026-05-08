@@ -239,7 +239,7 @@
   #tech-qa .qa-chevron.open {
     transform: rotate(180deg);
   }
-  /* Answer uses max-height animation — no display:none flicker */
+  /* Answer uses max-height animation — no display: none flicker */
   #tech-qa .qa-answer-body {
     max-height: 0;
     overflow: hidden;
@@ -284,7 +284,7 @@
       <input
         id="qa-search"
         type="text"
-        placeholder="Search topics... e.g. AI, Space, LLM, Quantum"
+        placeholder="Search topics... e.g., AI, Space, LLM, Quantum."
         oninput="filterQA()"
       />
     </div>
@@ -464,7 +464,7 @@ function changePage(dir) {
   const totalPages = Math.ceil(lastFiltered.length / PAGE_SIZE);
   currentPage = Math.max(0, Math.min(currentPage + dir, totalPages - 1));
   renderCards();
-  // Scroll back up to top of Q&A section smoothly
+  // Scroll back up to the top of the Q&A section smoothly
   document.getElementById('tech-qa').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
@@ -569,7 +569,7 @@ renderCards();
             <div class="tl-company">SoCal Health INC</div>
             <p class="tl-desc">Building a secure analytics and executive dashboard platform for healthcare leadership and investors.
               Developed ETL pipelines, backend APIs, and automated reporting workflows that reduced manual reporting effort by
-              ~60%. Ensured; HIPAA-complaint data handling with role-based access control.
+              ~60%. Ensured HIPAA-compliant data handling with role-based access control.
             </p>
           </div>
         </div>
@@ -609,9 +609,9 @@ renderCards();
           <h3 class="proj-name">AI Pathfinding Algorithm Integrated live traffic data to compute optimal travel routes using
             AI search techniques, demonstrating real-world problem-solving with pathfinding algorithms.
           </h3>
-          <p class="proj-desc">What it does: Pulls live traffic data and uses AI search algorithms to calculate the fastest,
+          <p class="proj-desc">What it does: Pulls live traffic data and uses AI search algorithms to calculate the fastest, the 
             most efficient travel route in real time. Problem it solves: Static navigation ignores real-world conditions -
-            this ensures routing decisions adapt dynamically to actual traffic, not outdated maps.
+            This ensures routing decisions adapt dynamically to actual traffic rather than to outdated maps.
           </p>
           <div class="proj-stack">
             <span class="tag small">Python</span>
@@ -625,10 +625,10 @@ renderCards();
             <span class="proj-tag">Game</span>
           </div>
           <h3 class="proj-name">Pet Bingo Game. An application designed and developed an interactive children's game using Unity 3D and C#.
-            Published on the Amazon Appstore-full product lifecycle from concept to release.</h3>
-          <p class="proj-desc">Outcome: Applied core software engineering principles including team collaboration, iterative
+            Published on the Amazon Appstore, the full product lifecycle from concept to release.</h3>
+          <p class="proj-desc">Outcome: Applied core software engineering principles, including team collaboration, iterative
             development, and Agile-based workflow practices. Contributed across the full product lifecycle, from concept and design to
-            development, testing and release on the Appstore.
+            development, testing, and release on the App Store.
           </p>
           <div class="proj-stack">
             <span class="tag small">C#</span>
@@ -749,7 +749,7 @@ renderCards();
         <div class="ps-card interest-card">
           <div class="interest-icon">🤖</div>
           <h3 class="interest-name">AI Research</h3>
-          <p class="interest-desc">Exploring how AI systems works under the hood, from LLM architecture and algorithms
+          <p class="interest-desc">Exploring how AI systems work under the hood, from LLM architecture and algorithms
             to backend systems, data pipelines, and how models process input to generate useful outputs.
           </p>
         </div>
@@ -757,7 +757,7 @@ renderCards();
         <div class="ps-card interest-card">
           <div class="interest-icon">📚</div>
           <h3 class="interest-name">Reading</h3>
-          <p class="interest-desc">Articles on technology, innovation, AI, and scientifc progress to deepen my
+          <p class="interest-desc">Articles on technology, innovation, AI, and scientific progress to deepen my
             understanding and keep learning beyond day-to-day work.</p>
         </div>
 

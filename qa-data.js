@@ -1,7 +1,16 @@
 const qaData = [
   {
     question: "Things you should never share with an AI chatbot.",
-    answer: `
+    answer: `If you are going to use an AI chatbot, these are the things you should avoid sharing:
+    => Login credentials: Obviously, you should never paste prompts with usernames and passwords into a chatbot,
+    including documents that contain login credentials. AI is also abysmal at generating secure passwords.
+    => Financial data: AI chatbots aren't financial experts, and you shouldn't upload documents or use data related 
+    to your specific finances in prompts. This includes bank statements, credit card numbers, investment information, 
+    account numbers and balances, etc. Sharing financial details anywhere that isn't secure increases the risk of
+    theft, fraud, and targeting by scammers.
+    => Medical records: AI chatbots also aren't medical professionals and shouldn't be relied upon for medical advice.
+    You probably don't want your medical records to be used to train LLMs plus, uploading them exposes them to
+    potential data breaches.
   {
     question: "AGI CPU",
     answer: `In early 2026, Arm launched the Arm AGI CPU, its first-ever production silicon designed specifically for

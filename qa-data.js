@@ -1,5 +1,31 @@
 const qaData = [
   {
+    question: "Linux says humans must take full responsibility for using AI-generated code.",
+    answer: `Linux has confirmed the use of generative AI to support coding is acceptable, but has established
+    several requirements to ensure high-quality output.
+    For example, code must be compatible with GPL-2.0-only, and it must include proper SPDX identifiers.
+    More importantly, though, while AI assistants like Microsoft Copilot may be accepted in the development
+    process, human developers ultimately remain responsible for the output, reviewing code, ensuring license
+    compliance, and taking full accountability.
+
+    Linux says AI is fine, but humans are still accountable
+    The move positions AI tools as an assistant rather than a human replacement, with AI agents condemned from
+    signing off code, and only humans are permitted to certify the Developer Certificate of Origin.
+    A new 'Assisted-by' tag will be added for transparency, used to disclose AI involvement, detailing the model
+    and tools used.
+    "When AI tools contribute to kernel development, proper attribution helps track the evolving role of AI in
+    the development process," the Github page reads.
+    The decision to implement transparency tagging is also noteworthy, with Linux founder Linus Torvalds previously
+    dismissing total AI bans as unrealistic. Instead, liability for security flaws, copyright issues, and so on all 
+    sits with the contributors personally.
+    As for the move's impacts on the industry, Linux has become one of the first and most influential projects to
+    establish boundaries for AI in such a way.
+    Looking ahead, we could see more companies and projects adopt similar rules, while others may forge their own
+    way, but Linux has certainly kick-started a broader discussion about where AI fits in the development lifecycle.`,
+    tag: "Tech",
+    date: "Mar 06, 2026"
+  },
+  {
     question: "Things you should never share with an AI chatbot.",
     answer: `If you are going to use an AI chatbot, these are the things you should avoid sharing:
     => Login credentials: Obviously, you should never paste prompts with usernames and passwords into a chatbot,

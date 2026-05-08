@@ -1,5 +1,23 @@
 const qaData = [
   {
+    question: "Emotion concepts and their function in a large language model.",
+    answer: `All modern language models sometimes act like they have emotions. They may say they're happy to
+    help you or sorry when they make a mistake. Sometimes they even appear to become frustrated or anxious
+    when struggling with tasks.
+    What is behind these behaviors?
+    The way modern AI models are trained pushes them to act like a character with human-like characteristics.
+    In addition, these models are known to develop rich and generalizable internal representations of abstract
+    concepts underlying their actions. It may then be natural for them to develop internal machinery that
+    emulates aspects of human psychology, like emotions. If so, this could have profound implications for how
+    we build AI systems and ensure they behave reliably.
+
+    In a new paper from the Interpretability team, they analyzed the internal mechanisms of Cluade Sonnet 4.5
+    and found emotion-related representations that shape its behavior. These correspond to specific patterns
+    of artificial "neurons" which activate in situations - and prompt behaviors - that the model has learned
+    to associate with the concept of a particular emotion (e.g., "happy" or "afraid"). The patterns themselves
+    are organized in a fashion that echoes human psychology, with more similar emotions corresponding to more
+    similar representations.  
+  {
     question: "A new era of AI crime has arrived with Anthropic's Mythos.",
     answer: `Ever since the launch of ChatGPT, top artificial-intelligence labs have been embroiled in a 
     cutthroat competition to one-up each other with powerful new features. But Anthropic's Claude Mythos

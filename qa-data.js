@@ -16,7 +16,14 @@ const qaData = [
     of artificial "neurons" which activate in situations - and prompt behaviors - that the model has learned
     to associate with the concept of a particular emotion (e.g., "happy" or "afraid"). The patterns themselves
     are organized in a fashion that echoes human psychology, with more similar emotions corresponding to more
-    similar representations.  
+    similar representations.
+    For instance, they find that neural activity patterns related to desperation can drive the model to take
+    unethical actions; artificial simulating ("steering") desperation patterns increases the model's likelihood
+    of blackmailing a human to avoid being shut down, or implementing a "cheating" workaround to a programming
+    task that the model can't solve.`,
+    tag: "Tech",
+    date: "May 05, 2026"
+  },
   {
     question: "A new era of AI crime has arrived with Anthropic's Mythos.",
     answer: `Ever since the launch of ChatGPT, top artificial-intelligence labs have been embroiled in a 

@@ -1,6 +1,30 @@
 const qaData = [
   {
-    
+    question: "AGI CPU",
+    answer: `In early 2026, Arm launched the Arm AGI CPU, its first-ever production silicon designed specifically for
+    "Agentic AI".
+    While the "AGI" acronym is often associated with Artificial General Intelligence, in this hardware context, it 
+    stands for Agentic AI Infrastructure.
+
+    Core Purpose: The "Conductor" of AI
+    Traditional CPUs were designed for general-purpose computing, while GPUs (like NVIDIA's) handle the heavy
+    mathematical lifting for AI training. The Arm AGI CPU fills a new gap: Agentic Orchestration.
+    => Continuous Reasoning: AI agents don't just "run" a command; they think, decide, and act in loops. This requires
+    a CPU that can handle thousands of parallel, small tasks simultaneously.
+    => The Orchestrator: It acts as the "brain" that tells specialized AI accelerators (ASICs/GPUs) what to do, managing
+    the complex logic and memory flow that GPUs aren't built to handle.
+    => The AGI CPU is designed for "rack-scale" performance, meaning it's optimized for massive data centers rather than 
+    home PCs.
+
+    Architecture      =      Up to 136 Neoverse V3 cores (Armv902 ISA)
+    Speed             =      3.2 GHz base / 3.7 GHz boost
+    Process           =      3nm (TSMC)
+    Memory Bandwidth  =      6 GB/s per core (Up to DDR5-8800)
+    Connectivity      =      96 lanes of PCle Gen6 and CXL 3.0 support
+    Power (TDP)       =      300W (optimized for density and performance-per-watt)`,
+    tag: "Tech",
+    date: "Mar 06, 2026"
+  },
   {
     question: "Why are most of the business AI projects currently failing?",
     answer: `AI is often hailed as a golden bullet for business efficiency, industry data from 2025 and 2026 suggests

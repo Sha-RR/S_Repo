@@ -1,5 +1,37 @@
 const qaData = [
   {
+    question: "A new era of AI crime has arrived with Anthropic's Mythos.",
+    answer: `Ever since the launch of ChatGPT, top artificial-intelligence labs have been embroiled in a 
+    cutthroat competition to one-up each other with powerful new features. But Anthropic's Claude Mythos
+    model shows that these rapid advancements could have unprecedented consequences if the technology falls
+    into the wrong hands.
+
+    AI has opened the floodgates for cybercrime, which generates enough money globally to rank as the third
+    largest economy behind the U.S. and China.
+    As an increasing amount of our lives play out in digital environments, cybercrime is one of the most lucrative
+    and fastest-growing areas of illegal activity, Gregor Stewart, chief AI officer at SentinelOne, told
+    MarketWatch. It turns out that the same technology that empowers non-engineers to "vide code" apps can
+    be used in equally powerful ways for nefarious causes.
+
+    Mythos - trained to perform deep, multistep reasoning at higher intensities than previous models - is
+    exceptionally good at finding and exploiting vulnerabilities. Its capabilities are so advanced that
+    Anthropic has withheld the model's release to the general public.
+    Mythos scored a 100% on Anthropic's CyBench cybersecurity benchmark, demonstrating high skills in finding
+    and exploiting software vulnerabilities. Independent testing from the AI Security Institute found that 
+    Mythos was the first "frontier" model to successfully execute a 32-step corporate-network attack.
+    AI deepfakes have been rapidly improving in accuracy and modalities, allowing hackers to easily create
+    large volumes of highly personalized scams with just a few prompts. Stewart also pointed to new forms of
+    identity theft where criminals create synthetic identities and social-media accounts mimicking the 
+    behaviours of real people.
+
+    Just like how students can use AI to help on their homework, criminals can also utilize AI capabilities.
+    "These models know a huge amount about the inside of a certain building, and so on and so forth," Stewart
+    said. "Tasks that would have been impossible to do or would have required very specialist knowledge ...
+    are now possible for pretty much anyone who wants to point it in the right direction and be persistent."`,
+    tag: "Tech",
+    date: "May 05, 2026"
+  },
+  {
     question: "Linux says humans must take full responsibility for using AI-generated code.",
     answer: `Linux has confirmed the use of generative AI to support coding is acceptable, but has established
     several requirements to ensure high-quality output.

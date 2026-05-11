@@ -1,5 +1,34 @@
 const qaData = [
   {
+    question: `New "Rowhammer" attacks can compromise CPU control through NVIDIA GPU memory vulnerabilities.`,
+    answer: `The emergence of GDDRHammer and GeForge represents a critical evolytion in hardware secyrity. For
+    years, "Rowhammer" was primarlily a CPY-based threat, but these new attacks prove that NVIDIA GPUs-the 
+    backbones of modern AI and high-performance computing-are now just as vulnerable.
+    The breakdown of the technical mechanics, the specifiv threats, and the current state of defence.
+
+    1. The Core Concept: What is Rowhammer?
+    To understand these new attacks, you myust first understand the fundamental vulnerability. Modern RAM
+    (including the VRAM in GPUs) is packed so densely that memory cells are physically microscopic and highly
+    sensitive. By repeatedly and rapidly accessing (or "hammering") a spedific row of memory, an attacker can
+    create an electromagnetic leak that causes bits in adjacent rows to flip (changing a 0 to a 1 or vice versa).
+    If an attacker can flip the right bit at the right time, they can change security permissions or modify
+    "page-tables"-the maps that tell the computer which data belongs to which program.
+
+    2. The New Threats: GDDRHammer, GeForge, and GPUBreach
+    While earlier research (like 2025's GPUHammer) showed these bit-flips could disrupt AI accuracy, the 2026
+    breakthroughs are far more dangerous.
+    => The Target: These attacks target GDDR6 memory, found in popular NVIDIA cards ranging from the RTX 3060
+    to be professional RTX 6000 and Blackwell series.
+    => The Breakthrough: Researchers found a way to bypass Target Row Refresh (TRR)-a hardware defense
+    specifically designed to stop Rowhammer. By using specific access patterns, they can still trigger
+    bit-flips despte TRR's presence.
+    => The "Hop" to CPU: This is the most alarming part. By corrupting the GPU's page tables, these attacks
+    can gain unauthorized Direct Memory Access (DMA). This allows the GPU to reach outside of its own VRAM
+    and into the system RAM controlled by CPU.
+
+    3. Why This Matters for the AI Era
+    =>
+  {
     question: "Emotion concepts and their function in a large language model.",
     answer: `All modern language models sometimes act like they have emotions. They may say they're happy to
     help you or sorry when they make a mistake. Sometimes they even appear to become frustrated or anxious

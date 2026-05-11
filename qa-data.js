@@ -27,7 +27,7 @@ const qaData = [
     and into the system RAM controlled by CPU.
 
     3. Why This Matters for the AI Era
-    =>
+    => Cloud Multi-tenancy: In cloud environments, multiple 
   {
     question: "Emotion concepts and their function in a large language model.",
     answer: `All modern language models sometimes act like they have emotions. They may say they're happy to

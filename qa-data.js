@@ -1,34 +1,46 @@
 const qaData = [
   {
+    question: "Google thwarts first AI-created zero-day cyberattack.",
+    answer: `First confirmed AI-developed zero-day exploit
+    Google's Threat Intelligence Group intercepts a zero-day exploit that it believes was created using AI,
+    marking a first in cybersecurity history. The Python-based attack targeted a popular open-source, web-based
+    system administration tool and was designed to bypass two-factor authentication. The exploit was stopped
+    before it could be deployed at scale, averting what Google described as a planned "mass exploitation event."
+
+    Digital fingerprints of AI coding`,
+    tag: "AI",
+    date: "May 11, 2026"
+  },
+  {
     question: `New "Rowhammer" attacks can compromise CPU control through NVIDIA GPU memory vulnerabilities.`,
-    answer: `The emergence of GDDRHammer and GeForge represents a critical evolytion in hardware secyrity. For
-    years, "Rowhammer" was primarlily a CPY-based threat, but these new attacks prove that NVIDIA GPUs-the 
-    backbones of modern AI and high-performance computing-are now just as vulnerable.
-    The breakdown of the technical mechanics, the specifiv threats, and the current state of defence.
+    answer: `The emergence of GDDRHammer and GeForge represents a critical evolution in hardware security. For
+    years, "Rowhammer" was primarily a CPY-based threat, but these new attacks prove that NVIDIA GPUs-the 
+    backbones of modern AI and high-performance computing are now just as vulnerable.
+    The breakdown of the technical mechanics, the specific threats, and the current state of defence.
 
     1. The Core Concept: What is Rowhammer?
-    To understand these new attacks, you myust first understand the fundamental vulnerability. Modern RAM
+    To understand these new attacks, you must first understand the fundamental vulnerability. Modern RAM
     (including the VRAM in GPUs) is packed so densely that memory cells are physically microscopic and highly
-    sensitive. By repeatedly and rapidly accessing (or "hammering") a spedific row of memory, an attacker can
+    sensitive. By repeatedly and rapidly accessing (or "hammering") a specific row of memory, an attacker can
     create an electromagnetic leak that causes bits in adjacent rows to flip (changing a 0 to a 1 or vice versa).
     If an attacker can flip the right bit at the right time, they can change security permissions or modify
     "page-tables"-the maps that tell the computer which data belongs to which program.
 
     2. The New Threats: GDDRHammer, GeForge, and GPUBreach
     While earlier research (like 2025's GPUHammer) showed these bit-flips could disrupt AI accuracy, the 2026
-    breakthroughs are far more dangerous.
+    Breakthroughs are far more dangerous.
     => The Target: These attacks target GDDR6 memory, found in popular NVIDIA cards ranging from the RTX 3060
     to be professional RTX 6000 and Blackwell series.
     => The Breakthrough: Researchers found a way to bypass Target Row Refresh (TRR)-a hardware defense
     specifically designed to stop Rowhammer. By using specific access patterns, they can still trigger
-    bit-flips despte TRR's presence.
+    bit-flips despite TRR's presence.
     => The "Hop" to CPU: This is the most alarming part. By corrupting the GPU's page tables, these attacks
     can gain unauthorized Direct Memory Access (DMA). This allows the GPU to reach outside of its own VRAM
-    and into the system RAM controlled by CPU.
+    and into the system RAM controlled by the CPU.
 
     3. Why This Matters for the AI Era
     => Cloud Multi-tenancy: In cloud environments, multiple users often share the same physical GPU hardware.
-    A malicious actor theoretically use GDDRHammer to "escape" their virtual environment and spy on or take
+    A malicious actor theoretically uses GDDRHammer to "escape" their virtual environment and spy on or take
     over the data of other users on the same machine.
     => AI Integrity: As discovered in early 2025, a single bit-flip can cause an AI's accuracy to plummet
     (sometimes by 80%), effectively "lobotomizing" a model without the owner knowing why.`,

@@ -27,7 +27,14 @@ const qaData = [
     and into the system RAM controlled by CPU.
 
     3. Why This Matters for the AI Era
-    => Cloud Multi-tenancy: In cloud environments, multiple 
+    => Cloud Multi-tenancy: In cloud environments, multiple users often share the same physical GPU hardware.
+    A malicious actor theoretically use GDDRHammer to "escape" their virtual environment and spy on or take
+    over the data of other users on the same machine.
+    => AI Integrity: As discovered in early 2025, a single bit-flip can cause an AI's accuracy to plummet
+    (sometimes by 80%), effectively "lobotomizing" a model without the owner knowing why.`,
+    tag: "Tech",
+    date: "May 11, 2026"
+  },
   {
     question: "Emotion concepts and their function in a large language model.",
     answer: `All modern language models sometimes act like they have emotions. They may say they're happy to

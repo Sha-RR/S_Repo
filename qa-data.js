@@ -5,9 +5,27 @@ const qaData = [
     Google's Threat Intelligence Group intercepts a zero-day exploit that it believes was created using AI,
     marking a first in cybersecurity history. The Python-based attack targeted a popular open-source, web-based
     system administration tool and was designed to bypass two-factor authentication. The exploit was stopped
-    before it could be deployed at scale, averting what Google described as a planned "mass exploitation event."
+    before it could be deployed at scale, averting what Google described as a planned "mass exploitation event.
+    
+    Digital fingerprints of AI coding
+    Investigators found telltale signs of AI authorship in the malicious code, including verbose docstrings, a
+    fabricated CVSS score, and a highly structured Pythonic style common in large language model training data.
+    Such features, unusual for human-written exploits, provided what experts called the closest thing to a 
+    'fingerprint' of AI involvement. Google has high confidence that an AI model, though not its own Gemini, was
+    used to both discover and weaponize the flaw.
 
-    Digital fingerprints of AI coding`,
+    Rapid intervention prevented a mass attack
+    Google worked closely with the unnamed vendor of the targeted tool to patch the vulnerability before attackers
+    could launch the exploit widely. This proactive response likely prevented large-scale compromise of systems
+    dependent on the tool. The case underscores how swift vendor collaboration is vital in countering AI
+    acclerated cyber threats.
+
+    Implication for future cyber defense
+    Security experts warn this incident is likely just the beginning of  AI-powered exploits that can uncover
+    complex logic flaws missed by traditional tools. State-linked actors from China and North Korea are already
+    experimenting with AI for vulnerability discovery and malware development. Defenders may need to adopt AI
+    driven analytics and autonomous security operations to keep pace with increasingly automated, adaptive 
+    cyberattacks.`,
     tag: "AI",
     date: "May 11, 2026"
   },

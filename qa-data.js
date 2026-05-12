@@ -12,7 +12,19 @@ const qaData = [
     universe around us - a "doomsday" - level threat some physicists claim is entirely possible.
     Now, as detailed in a paper published in the journal Physical Review Letters, Physicists in China claim to
     have simulated false vacuum decay using a lab-based "tabletop" experiment, laying the groundwork for future
-    investigations into whether the universe could be wiped out in an instant.`,
+    investigations into whether the universe could be wiped out in an instant.
+
+    Since the 1970s, scientists have suggested that a false vacuum could use quantum tunneling, a quirky facet of
+    quantum physics, to fall into a "true" vacuum. Put simply, the idea is that particles can cross through energy
+    barriers without actually possessing the required energy.
+    For the latest experiment, the team of Chinese  physicists set up a ring of Rydberg atoms, whose outermost 
+    electrons are at the highest energy levels they can maintain without leaving.
+    These atmos were arranged to be mutually repulsive to their respective neighbor, meaning that their spin states
+    ran in opposite directions to each other. The researchers then used a laser to deliberately break this ring,
+    in an effort to simulate a false vacuum state.
+
+    The researchers also observed that the system formed a "bubble" which contained a true vacuum state within it,
+    thereby making it more likely to transition to such a lower energy state.
     tag: "Quantum",
     date: "May 11, 2026"
   },

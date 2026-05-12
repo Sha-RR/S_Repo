@@ -1,5 +1,18 @@
 const qaData = [
   {
+    question: "Practical AI defenses against evolving threats.",
+    answer: `1. AI Security Analytics Platforms detect, analyze, and respond to threats in real time, improving
+    operational efficiency.
+    2. Behavioral analytics and UEBA identify insider threats, credential misuse, and abnormal user activity
+    across hybrid environments.
+    3. Automated incident response reduces detection and response times, enabling faster containment of attacks.
+    4. Threat intelligence integration allows proactive defense against emerging AI-augmented attacks by
+    correlating global and internal data.
+    5. Autonomous SOC operations enable continuous monitoring, adaptive workflows, and scalable security management.`,
+    tag: "AI",
+    date: "May 11, 2026"
+  },
+  {
     question: "Google thwarts first AI-created zero-day cyberattack.",
     answer: `First confirmed AI-developed zero-day exploit
     Google's Threat Intelligence Group intercepts a zero-day exploit that it believes was created using AI,

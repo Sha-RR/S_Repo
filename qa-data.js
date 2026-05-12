@@ -1,5 +1,22 @@
 const qaData = [
   {
+    question: "Science experiments with quantum.",
+    answer: `Scientists experimenting with quantum effect that some fear cold cause chain reaction that ends
+    entire universe.
+    In quantum physics, there's a state with even less energy than a vacuum, called a true vacuum, which is
+    stable because it has the lowest possible energy. A metastable or "false" vacuum, however, is a hypothetical
+    state that seems stable - but hasn't actually reached its most stable state yet.
+
+    If our universe were in this false vacuum state, researchers fret that a strange chain reaction could trigger
+    what's called a "false vacuum decay" event, which could result in the abrupt and sudden end of the entire
+    universe around us - a "doomsday" - level threat some physicists claim is entirely possible.
+    Now, as detailed in a paper published in the journal Physical Review Letters, Physicists in China claim to
+    have simulated false vacuum decay using a lab-based "tabletop" experiment, laying the groundwork for future
+    investigations into whether the universe could be wiped out in an instant.`,
+    tag: "Quantum",
+    date: "May 11, 2026"
+  },
+  {
     question: "Practical AI defenses against evolving threats.",
     answer: `1. AI Security Analytics Platforms detect, analyze, and respond to threats in real time, improving
     operational efficiency.

@@ -9,10 +9,9 @@ const qaData = [
 
     If our universe were in this false vacuum state, researchers fret that a strange chain reaction could trigger
     what's called a "false vacuum decay" event, which could result in the abrupt and sudden end of the entire
-    universe around us - a "doomsday" - level threat some physicists claim is entirely possible.
-    Now, as detailed in a paper published in the journal Physical Review Letters, Physicists in China claim to
-    have simulated false vacuum decay using a lab-based "tabletop" experiment, laying the groundwork for future
-    investigations into whether the universe could be wiped out in an instant.
+    universe around us - a "doomsday" - level threat some physicists claim is entirely possible. Physicists in 
+    China claims to have simulated false vacuum decay using a lab-based "tabletop" experiment, laying the groundwork
+    for future investigations into whether the universe could be wiped out in an instant.
 
     Since the 1970s, scientists have suggested that a false vacuum could use quantum tunneling, a quirky facet of
     quantum physics, to fall into a "true" vacuum. Put simply, the idea is that particles can cross through energy

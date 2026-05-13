@@ -24,7 +24,7 @@ const qaData = [
     in an effort to simulate a false vacuum state.
 
     The researchers also observed that the system formed a "bubble" which contained a true vacuum state within it,
-    thereby making it more likely to transition to such a lower energy state.
+    thereby making it more likely to transition to such a lower energy state.`,
     tag: "Space",
     date: "May 11, 2026"
   },

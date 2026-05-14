@@ -1,5 +1,31 @@
 const qaData = [
   {
+    question: "Scientists find way to avoid model collapse that could destroy AI.",
+    answer: `Scientists believe they might have found a way to overcome "model collapse", a phenomenon that
+    threatens the training of AI as we know it.
+    To become better, artificial intelligence systems such as those used in ChatGPT must be trained with more
+    and more real data. But much of that data is taken from writing on the internet, which itself is often produced
+    using such models.
+    The amount of real data is rapidly reducing - and is predicted to run out as early as this year. And data that
+    is produced by other AI systems could rapidly lead to "model collapse".
+    That refers to a phenomenon where AI systems engage in "data cannibalism", where they are trained on their own
+    outputs, and come rapidly less useful and more prone to dangerous falsehoods.
+    But researchers have suggested that using just one datapoint from the outside world can prevent the problem.
+    They did so using a set of models called "Exponential Families", a set of statistical models.
+    The works showed that training systems only on the data it has produced will always lead to model collapse. But
+    incorporating one datapoint from outside of the model - such as previously acquired knowledge - prevents the effect.
+    That happens even when the amount of machine-generated data is infinitely large, the study showed.
+
+    "Previous work undertaken on model collapse primarily looks at large, complicated LLMs, where it is not clear
+    how these models work and if results are repeatable - it is why you get unexplained hallucinations, where you
+    can't explain why an AI has generated a wrong answer."
+
+    "By focusing on a simple model, we can establish why adding just one data point prevents them from generating
+    glibberish from an objective, statistical standpoint.
+    The researchers behind the study pointed out that such a collapse is not limited to chatbots, but could affect
+    vital infrastructure, such as cars, too.
+    
+  {
     question: "Science experiments with quantum.",
     answer: `Scientists experimenting with quantum effect that some fear cold cause chain reaction that ends
     entire universe.

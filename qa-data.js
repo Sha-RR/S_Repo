@@ -24,7 +24,13 @@ const qaData = [
     glibberish from an objective, statistical standpoint.
     The researchers behind the study pointed out that such a collapse is not limited to chatbots, but could affect
     vital infrastructure, such as cars, too.
-    
+
+    From this foundation, we can establish principles that will be vital in future AI construction. As larger models
+    are deployed in areas touching our lives, from ChatGPT to self-driving cars, and synthetic data takes on a larger
+    share of AI training, computer scientists will have the tools to prevent this potentially disastrous scenario."`,
+    tag: "AI",
+    date: "May 14, 2026"
+  },
   {
     question: "Science experiments with quantum.",
     answer: `Scientists experimenting with quantum effect that some fear cold cause chain reaction that ends

@@ -12,7 +12,21 @@ const qaData = [
     Reports show Google's Gemini and other chatbots returning private phone numbers from obscure online sources.
     Sometimes tied to scams. Victims, including professionals whose numbers were buried in years-old forum posts,
     have struggled to have the data removed. Security researchers warn that fraudsters are deliberately seeding fake
-    customer service numbers online so AI systems will promote them.`,
+    customer service numbers online so AI systems will promote them.
+
+    Researchers turn away from AI tools
+    Academics are increasingly wary of generative AI after documented cases of fabricated citations, overgeneralized
+    conclusions, and escalating subscription costs. Peer-reviewed studies confirm citation fabrication rates in
+    ChatGPT, while preprints highlight bias in AI-generated research summaries. Cost disparities between open and 
+    closed source models, sometimes reaching 90%, are forcing labs to reconsider tool choices, especially when budgets
+    are tight and verification demands are high.
+
+    Industry push for AI reliability and accountability
+    Security leaders and legal experts emphasize that AI governance must move beyond control toward traceability, and 
+    standards could make AI governance a competitive advantage, enabling faster, safer scaling. Second, without
+    coordinated regulation and enterprise discipline, incidents like data leaks and misinformation could erode public
+    trust, triggering reactive crackdowns and limiting AI's potential. Historical parallels to cybersecurity suggest
+    that early movers on governance will shape industry norms and influence future regulatory frameworks.`,
     tag: "AI",
     date: "May 14, 2026"
   },

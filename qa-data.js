@@ -1,5 +1,20 @@
 const qaData = [
   {
+    question: "AI giant confirms breach as hackers threaten to leak Mistral files online.",
+    answer: ` Hackers who recently stole 450 repositories from Mistral AI are now offering the large set of data
+    to the highest bidder on the dark web - but if a buyer doesn't appear soon, they will leak everything for free.
+    The TeamPCP hacking group recently launched a supply chain attack called Mini Shai-Hulud against the TanStack
+    npm package. TanStack is a collection of free software designed for building user interfaces with more than
+    177 million weekly downloads.
+    By poisoning the package, TeamPCP managed to distribute an infostealer malware that harvested developer credentials,
+    cloud secrets, and SSH keys.
+
+    In a statement shared with BleepingComputer, Mistral AI confirmed the criminals compromised a codebase management 
+    system.`,
+    tag: "Tech",
+    date: "May 15, 2026"
+  },
+  {
     question: "AI misuse and reliability flaws spark urgent governance calls.",
     answer: `Bank breach and AI privacy leaks trigger alarm.
     Community Bank's SEC filing revealed that an employee uploaded customer names, birth dates, and Social Security 

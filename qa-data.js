@@ -1,5 +1,22 @@
 const qaData = [
   {
+    question: "AI misuse and reliability flaws spark urgent governance calls.",
+    answer: `Bank breach and AI privacy leaks trigger alarm.
+    Community Bank's SEC filing revealed that an employee uploaded customer names, birth dates, and Social Security 
+    numbers into an unapproved AI chatbot, creating a significant security incident. The breach underscores how 
+    'shadow IT' - unauthorized tools adopted outside official oversight - can bypass enterprise safeguards, exposing
+    sensitive data to third-party systems. Such incidents are prompting calls for stricter workplace AI policies and
+    better employee training to prevent costly privacy violations.
+
+    AI chatbots are found surfacing real phone numbers
+    Reports show Google's Gemini and other chatbots returning private phone numbers from obscure online sources.
+    Sometimes tied to scams. Victims, including professionals whose numbers were buried in years-old forum posts,
+    have struggled to have the data removed. Security researchers warn that fraudsters are deliberately seeding fake
+    customer service numbers online so AI systems will promote them.`,
+    tag: "AI",
+    date: "May 14, 2026"
+  },
+  {
     question: "Companies have a new AI problem: too many agents.",
     answer: `With the adoption of artificial-intelligence agents becoming more widespread among businesses, some
     of the most avid corporate users are racing to avoid the issues that come with having too many agents.

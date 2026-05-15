@@ -1,5 +1,41 @@
 const qaData = [
   {
+    question: "Companies have a new AI problem: too many agents.",
+    answer: `With the adoption of artificial-intelligence agents becoming more widespread among businesses, some
+    of the most avid corporate users are racing to avoid the issues that come with having too many agents.
+    Companies including Lyft, DaVita, and GitLab are navigating the challenge of AI agent proliferation, hoping to
+    tamp down on the problem without discouraging AI use.
+    The issue, known as "AI agent sprawl," stems partly from how easy it is for even nontechnical employees to create
+    these independent AI bots, thanks to platforms like Anthropic's Claude Cowork. OpenClaw, an open-source tool that
+    orchestrates multiple agents, has also added to the popularity of agents at work.
+
+    But having too many AI agents, especially multiple agents performing the same tasks, can create a cybersecurity
+    and management problems for corporate information-technology departments, and can drive up computing bills, those 
+    companies said.
+    "Depending on how all of this will turn out, there'll be tokens, and then there's going to be cost, and then you
+    end up with, 'How do you manage this to make sure that it's under a financially responsible model?'."
+
+    Managing the risks of sprawl
+    For now, most AI agents are being deployed by white-collar workers to do things like write code, summarize emails,
+    perform customer support, and analyze data. But more complex agents are being used for "deep research" and automating
+    entire business workflows.
+    Even so, they could be running on an employee's laptop, a server, or other company systems, making it hard for IT
+    departments to keep track of them all.
+    "Every day, there are quite literally new agents that are being created, and almost at every tier of the hierarchical
+    structure."
+    Employees at DaVita have created over 10,000 AI agents. To help prevent cybersecurity risks, the kidney-care company
+    doesn't allow "consumer-grade" AI agent tools into its corporate environment.
+
+    Rounding up the bots
+    Some corporate tech chiefs are similarly taking a proactive approach to managing their AI agents, hoping to prevent
+    agent sprawl. Lyft is also working on creating a centralized platform with IT controls for all of its agents. Having
+    too many agents creates a challenge for "a publicly traded organization with lots of regulatory obligations."
+    Anthropic said it has rolled out features that help IT admins in areas like role-based access, spend controls, and 
+    usage analytics, audit logging, and curated plug-in libraries.`,
+    tag: "AI",
+    date: "May 14, 2026"
+  },
+  {
     question: "Scientists find way to avoid model collapse that could destroy AI.",
     answer: `Scientists believe they might have found a way to overcome "model collapse", a phenomenon that
     threatens the training of AI as we know it.

@@ -1,5 +1,12 @@
 const qaData = [
   {
+    question: "AI chatbots don't just spread misinformation - they actively strengthen false beliefs.",
+    answer: `A person types a strange conviction into ChatGPT. The chatbot doesn't push back. Instead, it elaborates
+    adds detail, and treats the premise as reasonable. Three dozen turns later.`,
+    tag: "AI",
+    date: "May 15, 2026"
+  },
+  {
     question: "AI giant confirms breach as hackers threaten to leak Mistral files online.",
     answer: ` Hackers who recently stole 450 repositories from Mistral AI are now offering the large set of data
     to the highest bidder on the dark web - but if a buyer doesn't appear soon, they will leak everything for free.

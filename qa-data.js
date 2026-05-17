@@ -1,5 +1,16 @@
 const qaData = [
   {
+    question: "Stop layering AI on top of a broken foundation.",
+    answer: `Most AI initiatives don't fail because of the technology-they fail because organizations aren't prepared
+    for it.
+    I've spent more time studying how organizations use data and analytics in practice, through primary research, 
+    advisory work, and ongoing conversations with executives responsible for making these initiatives succeed.
+    Leaders often assume their challenges are unique, but they're not. I see the same patterns and issues emerge
+    across industries and over time. The same gaps around data, governance skills, and alignment come up repeatedly.`,
+    tag: "AI",
+    date: "May 15, 2026"
+  },
+  {
     question: "AI chatbots don't just spread misinformation - they actively strengthen false beliefs.",
     answer: `A person types a strange conviction into ChatGPT. The chatbot doesn't push back. Instead, it elaborates
     adds detail, and treats the premise as reasonable. Three dozen turns later, the user's original hunch has 

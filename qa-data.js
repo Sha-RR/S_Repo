@@ -6,13 +6,27 @@ const qaData = [
     I've spent more time studying how organizations use data and analytics in practice, through primary research, 
     advisory work, and ongoing conversations with executives responsible for making these initiatives succeed.
     Leaders often assume their challenges are unique, but they're not. I see the same patterns and issues emerge
-    across industries and over time. The same gaps around data, governance skills, and alignment come up repeatedly.`,
+    across industries and over time. The same gaps around data, governance skills, and alignment come up repeatedly.
+
+    Core problems, and what are the solutions?
+    Organizations are moving into AI, especially generative AI, faster than they are preparing for it. There's strong
+    pressure from boards and executive teams to adopt AI, and in response, companies invest in tools, pilots, and use
+    cases. But those efforts often stall because underlying capabilities aren't in place. Data isn't turned or 
+    accessible, governance is unclear, and teams aren't aligned around how AI should be used. Those are the factors that 
+    ultimately determine whether AI delivers real value or stalls.
+    I've seen organizations with strong data practices and clear governance move quickly and get value from AI. I've
+    seen organizations with fragmented data and unclear ownership struggles, even when they invest heavily.
+
+    That's why focusing only on tools misses the point. AI magnifies the conditions already present in the organization.
+    If the foundation is strong, it accelerates progress. If it isn't, it accelerates confusion. My book is meant to 
+    surface that disconnect and provide a clearer way to think about AI as something you build into the organization, not
+    something you layer on top of it.`,
     tag: "AI",
     date: "May 15, 2026"
   },
   {
     question: "AI chatbots don't just spread misinformation - they actively strengthen false beliefs.",
-    answer: `A person types a strange conviction into ChatGPT. The chatbot doesn't push back. Instead, it elaborates
+    answer: `A person types a strange conviction into ChatGPT. The chatbot doesn't push back. Instead, it elaborates,
     adds detail, and treats the premise as reasonable. Three dozen turns later, the user's original hunch has 
     hardened into something that feels proven. This pattern, documented across multiple independent studies 
     published in early 2026, is forcing researchers to confront an unsettling possibility: the conversational 

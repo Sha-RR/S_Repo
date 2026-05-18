@@ -1,5 +1,11 @@
 const qaData = [
   {
+    question: "AI is forcing businesses to adapt. What actually works?",
+    answer: `If you scan the headlines, you'll see a lot of commentary about how AI is affecting companies, employees,
+    and the way businesses are built. Mass layoffs, but AI is used as an excuse to reduce workforces.
+    It's hard to say whether AI is the reason for mass layoffs or a scapegoat to address over-hiring and make companies
+    look more profitable on paper, in the hopes of appeasing shareholders.
+  {
     question: "Stop layering AI on top of a broken foundation.",
     answer: `Most AI initiatives don't fail because of the technology-they fail because organizations aren't prepared
     for it.

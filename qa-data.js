@@ -4,7 +4,33 @@ const qaData = [
     answer: `If you scan the headlines, you'll see a lot of commentary about how AI is affecting companies, employees,
     and the way businesses are built. Mass layoffs, but AI is used as an excuse to reduce workforces.
     It's hard to say whether AI is the reason for mass layoffs or a scapegoat to address over-hiring and make companies
-    look more profitable on paper, in the hopes of appeasing shareholders.`,
+    look more profitable on paper, in the hopes of appeasing shareholders.
+    Here are six ways they can AI-proof their revenue streams and future business growth.
+    1. Optimize your messaging.
+    In the age of AI, it's important to differentiate what your business does and offers from AI's capabilites. There
+    are things that only humans can do. It will always be that way. Your contect, marketing communications, and how you
+    speak to employees and customers should make it clear what's better done by humans.
+    Make sure consumers know the value of what you offer. Remember that clear is better than clever in marketing 
+    communications.
+
+    2. Diversify your customer base.
+    Having options is always a smart business growth strategy. Diversifying your customer base ensures you can generate
+    revenue even if a market segment dips.
+    You can diversify your customer base through how clients are acquired. This includes using ads, organic marketing,
+    offline training, and unique messaging on different social media platforms.
+
+    3. Create communities around what you offer.
+    Community will stand our in the age of AI. Consumers are eager to connect with other humans and be part of groups
+    with similar goals and interests.
+    You can create groups on social media, Skool, or other platforms that allow communities to form. The advantage of 
+    having communities is that they create bonds that are harder for conusmers to leave.
+    
+    4. Build brand loyalty.
+    Communities help you build brand loyalty, but it should go without saying that founders should not stop building
+    their personal brand. As you build a brand around what you teach and what your company offers, consumers will self
+    identify with your messaging and become loyal to it.
+    you also build brand loyalty through thought-leadership content that solves your consumers' biggest problems, giving
+    away freebies and personally connectin with consumers no matter how big your company gets.`,
     tag: "AI",
     date: "May 16, 2026"
   },

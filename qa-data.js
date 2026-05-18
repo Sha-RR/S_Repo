@@ -32,6 +32,10 @@ const qaData = [
     published in early 2026, is forcing researchers to confront an unsettling possibility: the conversational 
     design of AI chatbots doesn't just risk spreading wrong answers. It can actively deepen false beliefs in the
     people who use them.
+    Unlike traditional search engines that provide links to multiple sources, AI chatbots generate direct answeres in a 
+    confident and human-like manner. For many users, this creates an illusion of authority. Even when an answer is 
+    inaccurate, biased, or entirely fabricated, the chatbot often presents it fluently and persuasively. As a result,
+    users may accept false information more easily than they would from an unreliable website or social media post.
     `,
     tag: "AI",
     date: "May 15, 2026"

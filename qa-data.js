@@ -28,7 +28,7 @@ const qaData = [
     OpenAI president Greg Brockman acknowledged that Musk helped launch OpenAI as a nonprofit AI lab and agreed with its
     original promise to advance AI "to benefit humanity as a whole," free from the need to generate financial returns.`,
     tag: "Tech",
-    date: "May 17, 2026"
+    date: "May 16, 2026"
   },
   {
     question: "AI is forcing businesses to adapt. What actually works?",

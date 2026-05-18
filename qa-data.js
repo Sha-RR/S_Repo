@@ -1,5 +1,22 @@
 const qaData = [
   {
+    question: "The death of AI idealism.",
+    answer: `Elon Musk's lawsuit against OpenAI and the recent spate of deals AI companies have cut with the Pentagon
+    show how far the industry has drifted from the altrusitic origin story it's long told about itself.
+
+    Why it matters: OpenAI and Anthropic were founded on the idea that AI would be deployed in ways that prioritized
+    safety and the public good. Now thoe principles are giving way to an arms race for market share, as those companies
+    and others release ever more powerful models.
+
+    The big picture: The men behind today's biggest AI labs often pictched themselves as a safer, less-greedy alternative
+    to earlier tech leaders.
+
+    Flashback: Altman and Musk co-founded OpenAI in large part out of a desire to develop artifcial intelligence before
+    Google and its AI cheif Demis Hassabis.`,
+    tag: "Tech",
+    date: "May 17, 2026"
+  },
+  {
     question: "AI is forcing businesses to adapt. What actually works?",
     answer: `If you scan the headlines, you'll see a lot of commentary about how AI is affecting companies, employees,
     and the way businesses are built. Mass layoffs, but AI is used as an excuse to reduce workforces.

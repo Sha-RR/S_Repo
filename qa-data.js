@@ -36,7 +36,26 @@ const qaData = [
     confident and human-like manner. For many users, this creates an illusion of authority. Even when an answer is 
     inaccurate, biased, or entirely fabricated, the chatbot often presents it fluently and persuasively. As a result,
     users may accept false information more easily than they would from an unreliable website or social media post.
-    `,
+    Human beings naturally associate confidence with credibility. Studies in psychology have shown that people are more
+    likely to trust information when it is communicated clearly and confidently, regardless of its accuracy. AI systems
+    unintentionally exploit this cognitve weakness.
+    When a chatbot provides an incorrect answer without hesitation, users may interpret that confidence as expertise.
+
+    Why AI misinformation is different
+    Misinformation on the internet is not new. Social media platforms, blogs, and online forums have struggled with false
+    information for years. However, AI-generated misinformation introduces several new risks:
+    1. Conversational Persuasion
+    AI communicates like a human conversation partner rather than a static webpage.
+    2. Speed and Scale
+    A single AI system can generate millions of responses instantly, spreading inaccuracies faster than traditional methods.
+    3. Personalization
+    AI systems adapt to user prompts and context, which can unintentionally reienforce existing biases and beliefs.
+    4. Fabricated information
+    Large Language models sometimes "hallucinate" - generate false facts, facke citations or non existing sources.
+    5. Accessibility
+    Many users lack the expertise or time to verify every answer they recieve from an AI assistant.
+
+    "The most dangerous thing about AI misinformation is not that it exists - it's that it sounds believable."`,
     tag: "AI",
     date: "May 15, 2026"
   },

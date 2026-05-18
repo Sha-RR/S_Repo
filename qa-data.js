@@ -12,7 +12,21 @@ const qaData = [
     to earlier tech leaders.
 
     Flashback: Altman and Musk co-founded OpenAI in large part out of a desire to develop artifcial intelligence before
-    Google and its AI cheif Demis Hassabis.`,
+    Google and its AI cheif Demis Hassabis.
+    => Musk was obsessed with the idea of Hassabis and his corporate bosses dominating the world's most powerful tech.
+    => Hassabis, for his part, was focused more on AI's potential to cure dieseases and power new scientific discoveries.
+    
+    Zoom in: Musk's court case centers on his argument that Altman and OpenAI president Greg Brockman should not be 
+    trusted with a for-profit AI company.
+    => One big problem: Musk runs xAI, his own for-profit OpenAI rival.
+    The case also hinges on the belief that AI is, in fact, a danger to humanity.
+    
+    Context: Anthropic CEO Dario Amodei straddles both visions of AI, touting his startup as a safer version of what came
+    before while also warning AI could wipe out half of the all entry-level white-collar jobs. He called AI a "serious 
+    civilizational challenge" that will "test who we are as a species."
+    => Nvidia CEO Jensen Huang recently argues that these apocalyptic warnings are themselves dangerous.
+    OpenAI president Greg Brockman acknowledged that Musk helped launch OpenAI as a nonprofit AI lab and agreed with its
+    original promise to advance AI "to benefit humanity as a whole," free from the need to generate financial returns.`,
     tag: "Tech",
     date: "May 17, 2026"
   },

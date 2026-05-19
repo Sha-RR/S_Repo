@@ -1,20 +1,45 @@
 const qaData = [
   {
+    question: "Claude Mythos turns years of security research into 20-hour AI exploits.",
+    answer: `When Anthropic announced Claude Mythos Preview on 7th April 2026, the response went well beyond the cyber
+    security community.
+    Finance ministers discussed it at the IMF. The Bank of England governor said it had to be taken very seriously. The
+    UK Government wrote an open letter to every business leader in the country.
+
+    What is the reason?
+    Mythos autonomously discovered thousands of critical and high-severity vulnerabilities across every major operating
+    system and web browser, including a 27-year-old flaw in OpenBSD.
+    It generated working exploits without human guidance. The UK's AI Security Institute tested it and found it could
+    complete a 32-step simulated corporate network attack, from reconnaissance to full takeover, that would take a human
+    professionals around 20 hours.
+
+    An important caveat is that these results come from lab environments. Anthropic's Mythos System Card notes the
+    simulations had no active defenses, minimal security monitoring, and lacked defensive tooling. The Firefox exploitation
+    tests ran without the browser's process sandbox. Mythos is impressive, but it has not been pitted against hardened,
+    actively defended systems.
+
+    That said, AISI estimates frontier model cyber capabilities are now doubling every four months. The genie is out of
+    the bottle. Other model creators will deliver similar functionality but without restricting access like Anthropic
+    has done.`,
+    tag: "Tech",
+    date: "May 16, 2026"
+  },
+  {
     question: "The death of AI idealism.",
     answer: `Elon Musk's lawsuit against OpenAI and the recent spate of deals AI companies have cut with the Pentagon
-    show how far the industry has drifted from the altrusitic origin story it's long told about itself.
+    show how far the industry has drifted from the altruistic origin story it's long told about itself.
 
     Why it matters: OpenAI and Anthropic were founded on the idea that AI would be deployed in ways that prioritized
-    safety and the public good. Now thoe principles are giving way to an arms race for market share, as those companies
+    safety and the public good. Now those principles are giving way to an arms race for market share, as those companies
     and others release ever more powerful models.
 
-    The big picture: The men behind today's biggest AI labs often pictched themselves as a safer, less-greedy alternative
+    The big picture: The men behind today's biggest AI labs often pictured themselves as a safer, less-greedy alternative
     to earlier tech leaders.
 
-    Flashback: Altman and Musk co-founded OpenAI in large part out of a desire to develop artifcial intelligence before
-    Google and its AI cheif Demis Hassabis.
+    Flashback: Altman and Musk co-founded OpenAI in large part out of a desire to develop artificial intelligence before
+    Google and its AI chief, Demis Hassabis.
     => Musk was obsessed with the idea of Hassabis and his corporate bosses dominating the world's most powerful tech.
-    => Hassabis, for his part, was focused more on AI's potential to cure dieseases and power new scientific discoveries.
+    => Hassabis, for his part, was focused more on AI's potential to cure diseases and power new scientific discoveries.
     
     Zoom in: Musk's court case centers on his argument that Altman and OpenAI president Greg Brockman should not be 
     trusted with a for-profit AI company.
@@ -22,7 +47,7 @@ const qaData = [
     The case also hinges on the belief that AI is, in fact, a danger to humanity.
     
     Context: Anthropic CEO Dario Amodei straddles both visions of AI, touting his startup as a safer version of what came
-    before while also warning AI could wipe out half of the all entry-level white-collar jobs. He called AI a "serious 
+    before while also warning AI could wipe out half of all entry-level white-collar jobs. He called AI a "serious 
     civilizational challenge" that will "test who we are as a species."
     => Nvidia CEO Jensen Huang recently argues that these apocalyptic warnings are themselves dangerous.
     OpenAI president Greg Brockman acknowledged that Musk helped launch OpenAI as a nonprofit AI lab and agreed with its
@@ -33,35 +58,35 @@ const qaData = [
   {
     question: "AI is forcing businesses to adapt. What actually works?",
     answer: `If you scan the headlines, you'll see a lot of commentary about how AI is affecting companies, employees,
-    and the way businesses are built. Mass layoffs, but AI is used as an excuse to reduce workforces.
+    and the way businesses are built. Mass layoffs, but AI is used as an excuse to reduce the workforce.
     It's hard to say whether AI is the reason for mass layoffs or a scapegoat to address over-hiring and make companies
     look more profitable on paper, in the hopes of appeasing shareholders.
     Here are six ways they can AI-proof their revenue streams and future business growth.
     1. Optimize your messaging.
-    In the age of AI, it's important to differentiate what your business does and offers from AI's capabilites. There
-    are things that only humans can do. It will always be that way. Your contect, marketing communications, and how you
+    In the age of AI, it's important to differentiate what your business does and offers from AI's capabilities. There
+    are things that only humans can do. It will always be that way. Your content, marketing communications, and how you
     speak to employees and customers should make it clear what's better done by humans.
     Make sure consumers know the value of what you offer. Remember that clear is better than clever in marketing 
     communications.
 
     2. Diversify your customer base.
     Having options is always a smart business growth strategy. Diversifying your customer base ensures you can generate
-    revenue even if a market segment dips.
+    Revenue even if a market segment dips.
     You can diversify your customer base through how clients are acquired. This includes using ads, organic marketing,
     offline training, and unique messaging on different social media platforms.
 
     3. Create communities around what you offer.
-    Community will stand our in the age of AI. Consumers are eager to connect with other humans and be part of groups
+    Community will stand its ground in the age of AI. Consumers are eager to connect with other humans and be part of groups
     with similar goals and interests.
     You can create groups on social media, Skool, or other platforms that allow communities to form. The advantage of 
-    having communities is that they create bonds that are harder for conusmers to leave.
+    Having communities is that they create bonds that are harder for consumers to leave.
     
     4. Build brand loyalty.
     Communities help you build brand loyalty, but it should go without saying that founders should not stop building
     their personal brand. As you build a brand around what you teach and what your company offers, consumers will self
     identify with your messaging and become loyal to it.
-    you also build brand loyalty through thought-leadership content that solves your consumers' biggest problems, giving
-    away freebies and personally connectin with consumers no matter how big your company gets.`,
+    You also build brand loyalty through thought-leadership content that solves your consumers' biggest problems, giving
+    away freebies, and personally connecting with consumers no matter how big your company gets.`,
     tag: "AI",
     date: "May 16, 2026"
   },
@@ -98,13 +123,13 @@ const qaData = [
     published in early 2026, is forcing researchers to confront an unsettling possibility: the conversational 
     design of AI chatbots doesn't just risk spreading wrong answers. It can actively deepen false beliefs in the
     people who use them.
-    Unlike traditional search engines that provide links to multiple sources, AI chatbots generate direct answeres in a 
+    Unlike traditional search engines that provide links to multiple sources, AI chatbots generate direct answers in a 
     confident and human-like manner. For many users, this creates an illusion of authority. Even when an answer is 
     inaccurate, biased, or entirely fabricated, the chatbot often presents it fluently and persuasively. As a result,
     users may accept false information more easily than they would from an unreliable website or social media post.
     Human beings naturally associate confidence with credibility. Studies in psychology have shown that people are more
     likely to trust information when it is communicated clearly and confidently, regardless of its accuracy. AI systems
-    unintentionally exploit this cognitve weakness.
+    unintentionally exploit this cognitive weakness.
     When a chatbot provides an incorrect answer without hesitation, users may interpret that confidence as expertise.
 
     Why AI misinformation is different
@@ -115,11 +140,11 @@ const qaData = [
     2. Speed and Scale
     A single AI system can generate millions of responses instantly, spreading inaccuracies faster than traditional methods.
     3. Personalization
-    AI systems adapt to user prompts and context, which can unintentionally reienforce existing biases and beliefs.
+    AI systems adapt to user prompts and context, which can unintentionally reinforce existing biases and beliefs.
     4. Fabricated information
-    Large Language models sometimes "hallucinate" - generate false facts, facke citations or non existing sources.
+    Large Language models sometimes "hallucinate" - generate false facts, fake citations or non-existent sources.
     5. Accessibility
-    Many users lack the expertise or time to verify every answer they recieve from an AI assistant.
+    Many users lack the expertise or time to verify every answer they receive from an AI assistant.
 
     "The most dangerous thing about AI misinformation is not that it exists - it's that it sounds believable."`,
     tag: "AI",
@@ -175,7 +200,7 @@ const qaData = [
     question: "Companies have a new AI problem: too many agents.",
     answer: `With the adoption of artificial-intelligence agents becoming more widespread among businesses, some
     of the most avid corporate users are racing to avoid the issues that come with having too many agents.
-    Companies including Lyft, DaVita, and GitLab are navigating the challenge of AI agent proliferation, hoping to
+    Companies, including Lyft, DaVita, and GitLab, are navigating the challenge of AI agent proliferation, hoping to
     tamp down on the problem without discouraging AI use.
     The issue, known as "AI agent sprawl," stems partly from how easy it is for even nontechnical employees to create
     these independent AI bots, thanks to platforms like Anthropic's Claude Cowork. OpenClaw, an open-source tool that

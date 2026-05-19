@@ -1,7 +1,10 @@
 const qaData = [
   {
     question: "How to Build Scalable Data Products?",
-    answer: `
+    answer: ``,
+    tag: "Tech",
+    date: "May 17, 2026"
+  },
   {
     question: "Claude Mythos turns years of security research into 20-hour AI exploits.",
     answer: `When Anthropic announced Claude Mythos Preview on 7th April 2026, the response went well beyond the cyber

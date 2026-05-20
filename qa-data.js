@@ -39,7 +39,15 @@ const qaData = [
     => Data Partitioning: Partition your large tables by a logical key. This ensures a query searching for last week's data
     doesn't scan years of history.
     => Microservices: Break your data product into isolated services packaged in Docker containers and orchestrated via
-    Kubernetes. If your API experiences a surge in traffic, you can scale just the API layer without touching the data pipelines.`,
+    Kubernetes. If your API experiences a surge in traffic, you can scale just the API layer without touching the data pipelines.
+    
+    6. Automate Data Quality and Observability
+    As data scales, data corruption or pipeline failures are inevitable. Without observability, silently corrupted data will
+    poison your production dashboards or machine learning models.
+    => Data Contracts: Enforce strict schemas at the ingestion level so upstream changes don't unexpectedly break downstream
+    pipelines.
+    => monitoring & Alerts: Implement data observability tools to monitor data freshness, volume anomalies, and schema drift
+    in real time.`
     tag: "Tech",
     date: "May 17, 2026"
   },

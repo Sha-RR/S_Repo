@@ -47,7 +47,7 @@ const qaData = [
     => Data Contracts: Enforce strict schemas at the ingestion level so upstream changes don't unexpectedly break downstream
     pipelines.
     => monitoring & Alerts: Implement data observability tools to monitor data freshness, volume anomalies, and schema drift
-    in real time.`
+    in real time.`,
     tag: "Tech",
     date: "May 17, 2026"
   },

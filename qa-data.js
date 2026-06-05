@@ -1,6 +1,6 @@
 const qaData = [
   {
-    question: "How to Build Scalable Data Products?",
+    /*question: "How to Build Scalable Data Products?",
     answer: `Building a scalable data product isn't just about throwing a larger instance at your database; it's about
     designing a system where the architecture, data pipeline, and storage layers can handle exponential growth in data
     volume and user traffic without a degradation in performance or a massive spike in costs.
@@ -75,7 +75,7 @@ const qaData = [
     has done.`,
     tag: "Tech",
     date: "May 16, 2026"
-  },
+  },*/
   {
     question: "The death of AI idealism.",
     answer: `Elon Musk's lawsuit against OpenAI and the recent spate of deals AI companies have cut with the Pentagon

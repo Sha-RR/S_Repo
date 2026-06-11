@@ -1,4 +1,4 @@
-const qaData = [
+const qaData = [ 
   /*{
     question: "How to Build Scalable Data Products?",
     answer: `Building a scalable data product isn't just about throwing a larger instance at your database; it's about

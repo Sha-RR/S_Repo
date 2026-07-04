@@ -4,15 +4,15 @@ const qaData = [
     answer: `Building a scalable data product isn't just about throwing a larger instance at your database; it's about
     designing a system where the architecture, data pipeline, and storage layers can handle exponential growth in data
     volume and user traffic without a degradation in performance or a massive spike in costs.
-    To build something that lasts, you need to break the system down into core, decoupling components. Here is the 
-    engineering blueprint for building a highly scalable data product.
+    To build something that lasts, you need to break the system down into core, decoupled components. Here is the 
+    Engineering blueprint for building a highly scalable data product.
     
     1. Decouple Storage and Compute
     Mixing storage and compute is the fastest way to hit a scaling wall. If your database engine is running on the same
     hardware that stores your terabytes of data, your queries will choke as data grows.
     => Modern Data Warehousing: Use systems like Snowflake, Google BigQuery, or AWS Redshift that allow you to scale your
     computing power completely independently of your storage capacity.
-    => Data Dakes for Raw Storage: Land all raw, unstructured, or semi-structured data in cost-effective object storage
+    => Data Lakes for Raw Storage: Land all raw, unstructured, or semi-structured data in cost-effective object storage
     before processing it.
     
     2. Implement Event-Driven, Streaming Architecture
@@ -25,7 +25,7 @@ const qaData = [
     
     3. Choose the Right Storage Engine for the Access Pattern
     A single database cannot efficiently handle analytical queries, transactional data, and low-latency user profiles all
-    at once. Implement a polygot persistence strategy.
+    at once. Implement a polyglot persistence strategy.
     
     4. Adopt a Modular Data Pipeline (ELT over ETL)
     Traditional ETL forces your processing servers to transform data before writing it to the database, creating a severe
@@ -35,7 +35,7 @@ const qaData = [
     massive, scalable compute power.
     
     5. Design for Horizontal Scalability & Partitioning
-    Vertical scaling has a hard physical ceiling and gets exponentially expensive. Plan for horizontal scaling from day one.
+    Vertical scaling has a hard physical ceiling and gets exponentially more expensive. Plan for horizontal scaling from day one.
     => Data Partitioning: Partition your large tables by a logical key. This ensures a query searching for last week's data
     doesn't scan years of history.
     => Microservices: Break your data product into isolated services packaged in Docker containers and orchestrated via
@@ -46,7 +46,7 @@ const qaData = [
     poison your production dashboards or machine learning models.
     => Data Contracts: Enforce strict schemas at the ingestion level so upstream changes don't unexpectedly break downstream
     pipelines.
-    => monitoring & Alerts: Implement data observability tools to monitor data freshness, volume anomalies, and schema drift
+    => Monitoring & Alerts: Implement data observability tools to monitor data freshness, volume anomalies, and schema drift
     in real time.`,
     tag: "Tech",
     date: "May 17, 2026"

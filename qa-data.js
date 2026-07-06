@@ -101,7 +101,7 @@ const qaData = [
     Context: Anthropic CEO Dario Amodei straddles both visions of AI, touting his startup as a safer version of what came
     before while also warning AI could wipe out half of all entry-level white-collar jobs. He called AI a "serious 
     civilizational challenge" that will "test who we are as a species."
-    => Nvidia CEO Jensen Huang recently argues that these apocalyptic warnings are themselves dangerous.
+    => Nvidia CEO Jensen Huang recently argued that these apocalyptic warnings are themselves dangerous.
     OpenAI president Greg Brockman acknowledged that Musk helped launch OpenAI as a nonprofit AI lab and agreed with its
     original promise to advance AI "to benefit humanity as a whole," free from the need to generate financial returns.`,
     tag: "Tech",
@@ -129,9 +129,9 @@ const qaData = [
 
     3. Create communities around what you offer.
     Community will stand its ground in the age of AI. Consumers are eager to connect with other humans and be part of groups
-    with similar goals and interests.
+    With similar goals and interests.
     You can create groups on social media, Skool, or other platforms that allow communities to form. The advantage of 
-    Having communities is that they create bonds that are harder for consumers to leave.
+    Having communities means that they create bonds that are harder for consumers to leave.
     
     4. Build brand loyalty.
     Communities help you build brand loyalty, but it should go without saying that founders should not stop building
@@ -210,7 +210,7 @@ const qaData = [
     npm package. TanStack is a collection of free software designed for building user interfaces with more than
     177 million weekly downloads.
     By poisoning the package, TeamPCP managed to distribute an infostealer malware that harvested developer credentials,
-    cloud secrets, and SSH keys.
+    Cloud secrets and SSH keys.
 
     In a statement shared with BleepingComputer, Mistral AI confirmed the criminals compromised a codebase management 
     system.`,

@@ -4,7 +4,6 @@
   --bg-1: #030507; --bg-2: #07111a; --bg-3: #0a1f2a; --bg-4: #07150f;
   --white: #ffffff; --soft-white: rgba(255,255,255,0.82);
 }
-
 html { scroll-behavior: smooth; }
 body {
   font-family: "Times New Roman", Times, serif;

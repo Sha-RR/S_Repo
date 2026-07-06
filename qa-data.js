@@ -59,11 +59,11 @@ const qaData = [
     UK Government wrote an open letter to every business leader in the country.
 
     What is the reason?
-    Mythos autonomously discovered thousands of critical and high-severity vulnerabilities across every major operating
-    system and web browser, including a 27-year-old flaw in OpenBSD.
+    Mythos autonomously discovered thousands of critical and high-severity vulnerabilities across every major operating system
+    and web browser, including a 27-year-old flaw in OpenBSD.
     It generated working exploits without human guidance. The UK's AI Security Institute tested it and found it could
     complete a 32-step simulated corporate network attack, from reconnaissance to full takeover, that would take a human
-    professionals around 20 hours.
+    Professionals around 20 hours.
 
     An important caveat is that these results come from lab environments. Anthropic's Mythos System Card notes the
     simulations had no active defenses, minimal security monitoring, and lacked defensive tooling. The Firefox exploitation
@@ -85,7 +85,7 @@ const qaData = [
     safety and the public good. Now those principles are giving way to an arms race for market share, as those companies
     and others release ever more powerful models.
 
-    The big picture: The men behind today's biggest AI labs often pictured themselves as a safer, less-greedy alternative
+    The big picture: The men behind today's biggest AI labs often pictured themselves as a safer, less greedy alternative
     to earlier tech leaders.
 
     Flashback: Altman and Musk co-founded OpenAI in large part out of a desire to develop artificial intelligence before

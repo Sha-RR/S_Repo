@@ -1,4 +1,40 @@
-const qaData = [ 
+const qaData = [
+  {
+    question: "AI Looping.",
+    answer: `Now a days a single AI response is often not enough for complex tasks. Looping allows an AI to:
+    => Break a large problem into smaller steps.
+    => Use tools (web search, calculators, databases, code execution).
+    => Check whether previous steps worked.
+    => Correct mistakes.
+    => Continue until it reaches the goal.
+    Without looping, an AI can only produce a one-shot answer. With looping, it behaves more like someone solving a problem
+    step by step.
+    A real-world example
+    "Building a weather app."
+    A looping AI agent might do this:
+    Goal: Build a weather app
+
+    Loop 1:
+    -> Plan project
+    Loop 2:
+    -> Generate frontend
+    Loop 3:
+    -> Generate backend
+    Loop 4:
+    -> Connect weather API
+    Loop 5;
+    -> Run tests
+    Loop 6:
+    -> Fix bugs
+    Loop 7:
+    -> Test again
+    Loop 8:
+    -> Deliver completed app
+
+    Each cycle uses the result of the previous one until the project is finished.`,
+    tag: "AI",
+    date: "July 10, 2026"
+  },
   /*{
     question: "How to Build Scalable Data Products?",
     answer: `Building a scalable data product isn't just about throwing a larger instance at your database; it's about

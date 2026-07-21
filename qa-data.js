@@ -42,7 +42,7 @@ const qaData = [
     volume and user traffic without a degradation in performance or a massive spike in costs.
     To build something that lasts, you need to break the system down into core, decoupled components. Here is the 
     Engineering blueprint for building a highly scalable data product.
-    
+      
     1. Decouple Storage and Compute
     Mixing storage and compute is the fastest way to hit a scaling wall. If your database engine is running on the same
     hardware that stores your terabytes of data, your queries will choke as data grows.

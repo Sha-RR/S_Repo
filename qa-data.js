@@ -1,5 +1,23 @@
 const qaData = [
   {
+    question: "If gravity affects the flow of time, does the future already exist?",
+    answer: `One of the deepest questions in physics and philosophy. Maybe or maybe not. Gravity affecting time does not by itself prove that the future already exists, but one interpretation
+    of Einstein's theory suggests it might.
+    Step 1: Gravity changes the rate at which time passes
+    Einstein's General Relativity tells us that stronger gravity makes time pass more slowly. For example, a clock on Earth's surface runs slightly slower than a clock on a GPS satellite. Near
+    a black hole, time slows dramatically compared to someone far away.
+    This effect has been measured many times and is built into technologies like GPS.
+    Step 2: If time flows differently for different observers
+    Suppose you stand on Earth while your friend is near the black hole. Then you experience 10 years, but your friend experiences only 1 year. Neither clock is wrong. Each measures time correctly
+    for that observer. This tells us that there is no single universal clock ticking for the entire universe.
+    Step 3: So what is "now"?
+    In everyday life, we think everyone shares the same present moment. Einstein showed that's not true.
+    Two observers moving differently-or in different gravitational fields-can disagree about whether two distant events happened: at the same time, one before the other, or one after the other.
+    This is called the relativity of simultaneity.
+    If there isn't one universal "now", then the distinction between past, present, and future becomes less absolute than we usually imagine.`,
+    tag: "Space",
+    date: "July 27, 2026"
+  },
     question: "AI Looping.",
     answer: `Now a days a single AI response is often not enough for complex tasks. Looping allows an AI to:
     => Break a large problem into smaller steps.

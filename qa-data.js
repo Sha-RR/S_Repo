@@ -18,6 +18,7 @@ const qaData = [
     tag: "Space",
     date: "July 27, 2026"
   },
+  {
     question: "AI Looping.",
     answer: `Now a days a single AI response is often not enough for complex tasks. Looping allows an AI to:
     => Break a large problem into smaller steps.

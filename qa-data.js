@@ -3,24 +3,38 @@ const qaData = [
     question: "If gravity affects the flow of time, does the future already exist?",
     answer: `One of the deepest questions in physics and philosophy. Maybe or maybe not. Gravity affecting time does not by itself prove that the future already exists, but one interpretation
     of Einstein's theory suggests it might.
+    
     Step 1: Gravity changes the rate at which time passes
     Einstein's General Relativity tells us that stronger gravity makes time pass more slowly. For example, a clock on Earth's surface runs slightly slower than a clock on a GPS satellite. Near
     a black hole, time slows dramatically compared to someone far away.
     This effect has been measured many times and is built into technologies like GPS.
+    
     Step 2: If time flows differently for different observers
     Suppose you stand on Earth while your friend is near the black hole. Then you experience 10 years, but your friend experiences only 1 year. Neither clock is wrong. Each measures time correctly
     for that observer. This tells us that there is no single universal clock ticking for the entire universe.
+    
     Step 3: So what is "now"?
     In everyday life, we think everyone shares the same present moment. Einstein showed that's not true.
     Two observers moving differently-or in different gravitational fields-can disagree about whether two distant events happened: at the same time, one before the other, or one after the other.
     This is called the relativity of simultaneity.
-    If there isn't one universal "now", then the distinction between past, present, and future becomes less absolute than we usually imagine.`,
+    If there isn't one universal "now", then the distinction between past, present, and future becomes less absolute than we usually imagine.
+
+    Step 4: The Block Universe Idea
+    One interpretation is called the Block Universe (or Eternalism). Imagine spacetime like an entire movie reel. Every frame already exists: your birth, today, tomorrow, your old age.
+    You're simply experiencing the frames one after another. In this view: the past exists, the present exists, the future also exists.
+
+    Step 5: But this is an interpretation-not a proven fact
+    Many physicists accept the mathematics of relativity but disagree on what it means philosophically. Other ideas include: 
+    Presentism: Only the present exists; the past is gone, and the future doesn't yet exist.
+    Growing Block Universe: The past and present exist, while the future is still being created.
+    Quantum interpretations: Some physicists think quantum mechanics leaves room for an open, not-yet-determined future.
+    At the moment, no experiment has conclusively shown which interpretation is correct.`,
     tag: "Space",
     date: "July 27, 2026"
   },
   {
     question: "AI Looping.",
-    answer: `Now a days a single AI response is often not enough for complex tasks. Looping allows an AI to:
+    answer: `Nowadays, a single AI response is often not enough for complex tasks. Looping allows an AI to:
     => Break a large problem into smaller steps.
     => Use tools (web search, calculators, databases, code execution).
     => Check whether previous steps worked.

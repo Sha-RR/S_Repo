@@ -15,7 +15,11 @@ const qaData = [
     If application servers are overloaded: Then scale horizontally by adding more instances, and increase autoscaling limits.
     If one API endpoint is causing issues: Then temporarily rate-limit that endpoint. Return cached responses if possible.
     If traffic is abusive, then enable rate limiting, block offending IPs, use WAF/CDN protections.
-    If the database is overloaded, then increase read replicas, serve cached data, reduce expensive queries.`,
+    If the database is overloaded, then increase read replicas, serve cached data, reduce expensive queries.
+    Step 4: Use caching:
+    If many users request identical data: Enable Redis/Memcached, Increase CDN caching, Cache database results, and cache API responses. Reducing database hits often has the biggest impact.
+    
+    `,
     tag: "Tech",
     date: "July 28"
   },

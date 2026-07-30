@@ -14,13 +14,13 @@ const qaData = [
     Depending on the findings:
     If application servers are overloaded: Then scale horizontally by adding more instances, and increase autoscaling limits.
     If one API endpoint is causing issues: Then temporarily rate-limit that endpoint. Return cached responses if possible.
-    If traffic is abusive, then enable rate limiting, block offending IPs, use WAF/CDN protections.
+    If traffic is abusive, then enable rate limiting, block offending IPs, and use WAF/CDN protections.
     If the database is overloaded, then increase read replicas, serve cached data, and reduce expensive queries.
     Step 4: Use caching
     If many users request identical data: Enable Redis/Memcached, Increase CDN caching, Cache database results, and cache API responses. Reducing database hits often has the biggest impact.
     Step 5: Investigate bottlenecks
     If CPU = 100%: Then check for any infinite loop, expensive JSON serialization, too much encryption, or heavy computation.
-    If Database = 100%: Check for missing indexes, N+1 queries, full table scans, long-running transactions.
+    If Database = 100%: Check for missing indexes, N+1 queries, full table scans, and long-running transactions.
     If the network is saturated, then check for large responses, file downloads, and compression disable.
     Step 6: Roll back if needed
     If the issue started after deployment, then roll back immediately and restore the previous stable version.

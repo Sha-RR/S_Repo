@@ -1,5 +1,25 @@
 const qaData = [
   {
+    question: "How do you fix it if the API is getting thousands of requests per second, the server is choking, and users are complaining?",
+    answer:`Follow a structured process. Stabilize -> identify -> mitigate -> fix -> prevent.
+    Priority: Stop the bleeding.
+    Do not make random code changes. The goal is to restore service as quickly as possible.
+
+    Step 1: Check what is failing (1-2 minutes)
+    Look at monitoring dashboards: CPU usage, memory usage, network utilization, request latency (P95/P99), error rates (5xx, timeouts), database metrics, cache metrics.
+    Check for: Is the application CPU-bound, the database overloaded, are all the requests slow, or only one endpoint, did traffic suddenly spike, was there a recent deployment?
+    Step 2: Check logs
+    Look for: Exceptions, timeouts, database connection pool exhaustion, out-of-memory errors, thread starvation, slow queries.
+    Step 3: Mitigate immediately
+    Depending on the findings:
+    If application servers are overloaded: Then scale horizontally by adding more instances, and increase autoscaling limits.
+    If one API endpoint is causing issues: Then temporarily rate-limit that endpoint. Return cached responses if possible.
+    If traffic is abusive, then enable rate limiting, block offending IPs, use WAF/CDN protections.
+    If the database is overloaded, then increase read replicas, serve cached data, reduce expensive queries.`,
+    tag: "Tech",
+    date: "July 28"
+  },
+  {
     question: "If gravity affects the flow of time, does the future already exist?",
     answer: `One of the deepest questions in physics and philosophy. Maybe or maybe not. Gravity affecting time does not by itself prove that the future already exists, but one interpretation
     of Einstein's theory suggests it might.

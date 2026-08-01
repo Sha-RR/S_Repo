@@ -8,7 +8,10 @@ const qaData = [
     => High Throughput: Designed to process thousands of transactions per second (TPS) without relying on layer 2 scaling networks.
     => Ultra-Low Fees: Average transaction costs are typically fractions of a cent (around $0.00025 per transaction).
     => Sub-Second Settlement: Block times are around 400 milliseconds, allowing applications to react almost instantaneously.
-    => Native Token (SOL): Used for paying network transaction fees, staking to secure the network, and participating in governance.
+    => Native Token (SOL): Used for paying network transaction fees, staking to secure the network, and participating in governance.`,
+    tag: "Tech",
+    date: "July 29, 2026"
+  },
   {
     question: "How do you fix it if the API is getting thousands of requests per second, the server is choking, and users are complaining?",
     answer:`Follow a structured process. Stabilize -> identify -> mitigate -> fix -> prevent.
@@ -43,7 +46,7 @@ const qaData = [
     Implement preventive measures: Better autoscaling, rate limiting, circuit breakers, queue-based processing, improved monitoring and alerts, and load testing for 15,000 + RPS.
     `,
     tag: "Tech",
-    date: "July 28"
+    date: "July 28, 2026"
   },
   {
     question: "If gravity affects the flow of time, does the future already exist?",

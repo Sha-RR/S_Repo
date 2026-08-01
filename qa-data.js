@@ -8,7 +8,12 @@ const qaData = [
     => High Throughput: Designed to process thousands of transactions per second (TPS) without relying on layer 2 scaling networks.
     => Ultra-Low Fees: Average transaction costs are typically fractions of a cent (around $0.00025 per transaction).
     => Sub-Second Settlement: Block times are around 400 milliseconds, allowing applications to react almost instantaneously.
-    => Native Token (SOL): Used for paying network transaction fees, staking to secure the network, and participating in governance.`,
+    => Native Token (SOL): Used for paying network transaction fees, staking to secure the network, and participating in governance.
+    HOW IT WORKS
+    Solana achieves its speed by combining a traditional consensus mechanism with an innovative timekeeping system:
+    1. Proof of History (PoH): Rather than having network nodes constantly talk to each other to agree on when a transaction occurred, PoH creates a verifiable 
+    cryptographic timestamp for every event. This built-in "historical clock" allows nodes to process transactions sequentially at maximum speed without waiting for
+    network consensus on order.`,
     tag: "Tech",
     date: "July 29, 2026"
   },

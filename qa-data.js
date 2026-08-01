@@ -2,6 +2,10 @@ const qaData = [
   {
     question: "Solana blockchain.",
     answer: `Solana is a high-performance Layer 1 blockchain designed to power scalable, fast, and low-cost decentralized applications (dapps) and financial tools.
+    Founded in 2018 by Anatoly Yakovenko and launched in 2020, it was built specifically to solve the high fees and slow transaction times common in older networks
+    like Ethereum and Bitcoin.
+    KEY FEATURES & HIGHLIGHTS
+    => High Throughput: Designed to process thousands of transactions per second (TPS) without relying on layer 2 scaling networks.
   {
     question: "How do you fix it if the API is getting thousands of requests per second, the server is choking, and users are complaining?",
     answer:`Follow a structured process. Stabilize -> identify -> mitigate -> fix -> prevent.

@@ -13,7 +13,14 @@ const qaData = [
     Solana achieves its speed by combining a traditional consensus mechanism with an innovative timekeeping system:
     1. Proof of History (PoH): Rather than having network nodes constantly talk to each other to agree on when a transaction occurred, PoH creates a verifiable 
     cryptographic timestamp for every event. This built-in "historical clock" allows nodes to process transactions sequentially at maximum speed without waiting for
-    network consensus on order.`,
+    network consensus on order.
+    2. Proof of Stake (PoS): Nodes (validators) stake SOL to confirm blocks ordered by PoH, earning network rewards for honest behavior and securing the chain.
+    
+    What Runs on Solana?
+    Decentralized Finance - Instant trading, lending, and liquidity pools. Ex: Decentralized exchanges (Jupiter, Raydium), money markets.
+    NFTs & Digital Collectibles - Low-Cost creation and trading of digital assets. EX: Marketplaces like Magic Eden and Tensor.
+    Payments & Stablecoins - Real-world payment rails leveraging instant settlement. Ex: Integration with Visa, Circle (USDC) for global transfers.
+    Consumer Apps & Gaming - Web3 games, social platforms, and token-powered hardware. Ex: On-chain mobile integration (Solana Saga/Seeker devices).`,
     tag: "Tech",
     date: "July 29, 2026"
   },

@@ -6,6 +6,9 @@ const qaData = [
     like Ethereum and Bitcoin.
     KEY FEATURES & HIGHLIGHTS
     => High Throughput: Designed to process thousands of transactions per second (TPS) without relying on layer 2 scaling networks.
+    => Ultra-Low Fees: Average transaction costs are typically fractions of a cent (around $0.00025 per transaction).
+    => Sub-Second Settlement: Block times are around 400 milliseconds, allowing applications to react almost instantaneously.
+    => Native Token (SOL): Used for paying network transaction fees, staking to secure the network, and participating in governance.
   {
     question: "How do you fix it if the API is getting thousands of requests per second, the server is choking, and users are complaining?",
     answer:`Follow a structured process. Stabilize -> identify -> mitigate -> fix -> prevent.

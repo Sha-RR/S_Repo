@@ -1,5 +1,8 @@
 const qaData = [
   {
+    question: "Solana blockchain.",
+    answer: `Solana is a high-performance Layer 1 blockchain designed to power scalable, fast, and low-cost decentralized applications (dapps) and financial tools.
+  {
     question: "How do you fix it if the API is getting thousands of requests per second, the server is choking, and users are complaining?",
     answer:`Follow a structured process. Stabilize -> identify -> mitigate -> fix -> prevent.
     Priority: Stop the bleeding.

@@ -1,5 +1,17 @@
 const qaData = [
   {
+    question: "SEO (Search Engine Optimization).",
+    answer: `One of the most misunderstood aspects of building websites. Think of it this way:
+    -> The website exists on the internet.
+    -> Google has to discover it, understand it, and decide whether it deserves to appear in search results.
+    That's what indexing is.
+    What is SEO indexing?
+    Imagine Google is a huge library. Your new website, it is a new book. Googlebot is the librarian. Google's index is the
+    library catalog. Then if the book is not in the catalog, nobody searching the library will find it.`,
+    tag: "Tech",
+    date: "July 30, 2026"
+  },
+  {
     question: "Solana blockchain.",
     answer: `Solana is a high-performance Layer 1 blockchain designed to power scalable, fast, and low-cost decentralized applications (dapps) and financial tools.
     Founded in 2018 by Anatoly Yakovenko and launched in 2020, it was built specifically to solve the high fees and slow transaction times common in older networks

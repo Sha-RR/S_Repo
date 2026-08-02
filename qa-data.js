@@ -9,7 +9,9 @@ const qaData = [
     Imagine Google is a huge library. Your new website, it is a new book. Googlebot is the librarian. Google's index is the
     library catalog. Then if the book is not in the catalog, nobody searching the library will find it.
     So the process is: the website goes online -> Google discovers it -> Google visits (crawls) it -> Google understands the content
-    -> Google stores it in its index -> People can find it through Google Search.`,
+    -> Google stores it in its index -> People can find it through Google Search.
+    If the page is not indexed, searching Google won't show it.
+    `,
     tag: "Tech",
     date: "July 30, 2026"
   },

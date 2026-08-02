@@ -11,7 +11,11 @@ const qaData = [
     So the process is: the website goes online -> Google discovers it -> Google visits (crawls) it -> Google understands the content
     -> Google stores it in its index -> People can find it through Google Search.
     If the page is not indexed, searching Google won't show it.
-    `,
+    Crawling vs Indexing vs Ranking
+    1. Crawling: Google visits your website.
+    2. Indexing: Google decides; If the page is useful, it stores it.
+    3. Ranking: If someone searches, then Google decides which one to show first. Ranking is different from indexing. A page 
+    must be indexed before it can rank.`,
     tag: "Tech",
     date: "July 30, 2026"
   },

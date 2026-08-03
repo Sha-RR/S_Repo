@@ -1,5 +1,14 @@
 const qaData = [
   {
+    question: "Why do indexing problems happen?",
+    answer: `Usually because Google can not understand something. For example:
+    1. Missing pages: Google visits (/privacy.html) but gets 404.
+    2. Duplicate pages: Google finds (/) and (/index.html) with the same content, and it asks which one should I keep?
+    3. Redirects: Google visits (http://) and gets redirected to (https://) which is normal.
+    4. Blocked pages: Sometimes (robots.txt) blocks Google because of plain text. Google cannot crawl anything.
+    5. noindex: Inside HTML (<meta name="robots" content="noindex">), Google obeys and doesn't index the page.
+    
+  {
     question: "SEO (Search Engine Optimization).",
     answer: `One of the most misunderstood aspects of building websites. Think of it this way:
     -> The website exists on the internet.

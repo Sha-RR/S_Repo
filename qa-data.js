@@ -2,12 +2,30 @@ const qaData = [
   {
     question: "Why do indexing problems happen?",
     answer: `Usually because Google can not understand something. For example:
-    1. Missing pages: Google visits (/privacy.html) but gets 404.
+    1. Missing pages: Google visits (/privacy.html) but gets a 404.
     2. Duplicate pages: Google finds (/) and (/index.html) with the same content, and it asks which one should I keep?
     3. Redirects: Google visits (http://) and gets redirected to (https://) which is normal.
     4. Blocked pages: Sometimes (robots.txt) blocks Google because of plain text. Google cannot crawl anything.
     5. noindex: Inside HTML (<meta name="robots" content="noindex">), Google obeys and doesn't index the page.
-    
+    HOW TO PREVENT INDEXING PROBLEMS
+    1. Every page should have a unique title.
+    2. Every page should have a meta description.
+    3. Add canonical URLs.
+    4. Create robots.txt.
+    5. Create sitemap.xml.
+    6. Avoid broken links.
+    7. Use HTTPS.
+    8. Don't have duplicate pages.
+    9. Connect to Search Console.
+    10. Keep checking monthly.
+    SEO is not just about fixing errors.
+    Even if Google indexes your site, you want it to rank well. That means focusing on: High-quality, original content, fast
+    loading speed, mobile-friendly design, clear navigation, descriptive page titles and headings, relevant keywords used
+    naturally, internal links between related pages, backlinks from reputable websites.
+    These help Google understand that your site is valuable.`,
+    tag: "Tech",
+    date: "July 31, 2026"
+  },
   {
     question: "SEO (Search Engine Optimization).",
     answer: `One of the most misunderstood aspects of building websites. Think of it this way:

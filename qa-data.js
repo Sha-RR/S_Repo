@@ -176,14 +176,13 @@ const qaData = [
     tag: "AI",
     date: "July 10, 2026"
   },
-  /*{
+  {
     question: "How to Build Scalable Data Products?",
     answer: `Building a scalable data product isn't just about throwing a larger instance at your database; it's about
     designing a system where the architecture, data pipeline, and storage layers can handle exponential growth in data
     volume and user traffic without a degradation in performance or a massive spike in costs.
     To build something that lasts, you need to break the system down into core, decoupled components. Here is the 
     Engineering blueprint for building a highly scalable data product.
-      
     1. Decouple Storage and Compute
     Mixing storage and compute is the fastest way to hit a scaling wall. If your database engine is running on the same
     hardware that stores your terabytes of data, your queries will choke as data grows.
@@ -191,7 +190,6 @@ const qaData = [
     computing power completely independently of your storage capacity.
     => Data Lakes for Raw Storage: Land all raw, unstructured, or semi-structured data in cost-effective object storage
     before processing it.
-    
     2. Implement Event-Driven, Streaming Architecture
     Batch processing breaks down when users expect real-time analytics or when data volume becomes too massive to process
     in a single window. Shifting to an event-driven architecture ensures steady data ingestion.
@@ -199,25 +197,21 @@ const qaData = [
     millions of events per second. This acts as a buffer, ensuring spikes in traffic don't crash downstream applications.
     => Stream Processing: Process data on the fly using engines like Apache Flink or Apache Spark Streaming for real-time
     aggregations, transformations, and anomaly detection.
-    
     3. Choose the Right Storage Engine for the Access Pattern
     A single database cannot efficiently handle analytical queries, transactional data, and low-latency user profiles all
     at once. Implement a polyglot persistence strategy.
-    
     4. Adopt a Modular Data Pipeline (ELT over ETL)
     Traditional ETL forces your processing servers to transform data before writing it to the database, creating a severe
     bottleneck.
     Instead, pivot to ELT (Extract, Load, Transform). Dump raw data directly into your high-performance cloud data warehouse
     first, and then use a transformation tool like dbt (data build tool) to run SQL transformations leveraging the warehouse's
     massive, scalable compute power.
-    
     5. Design for Horizontal Scalability & Partitioning
     Vertical scaling has a hard physical ceiling and gets exponentially more expensive. Plan for horizontal scaling from day one.
     => Data Partitioning: Partition your large tables by a logical key. This ensures a query searching for last week's data
     doesn't scan years of history.
     => Microservices: Break your data product into isolated services packaged in Docker containers and orchestrated via
     Kubernetes. If your API experiences a surge in traffic, you can scale just the API layer without touching the data pipelines.
-    
     6. Automate Data Quality and Observability
     As data scales, data corruption or pipeline failures are inevitable. Without observability, silently corrupted data will
     poison your production dashboards or machine learning models.
@@ -227,7 +221,7 @@ const qaData = [
     in real time.`,
     tag: "Tech",
     date: "May 17, 2026"
-  },*/
+  },
   {
     question: "Claude Mythos turns years of security research into 20-hour AI exploits.",
     answer: `When Anthropic announced Claude Mythos Preview on 7th April 2026, the response went well beyond the cyber

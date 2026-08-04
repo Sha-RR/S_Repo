@@ -736,7 +736,7 @@ renderCards();
             <span class="course-year">2024</span>
           </div>
           <h3 class="course-name">Course Title</h3>
-          <p class="course-desc">What you learned in this course. Replace with real content from your resume.</p>
+          <p class="course-desc">Course content</p>
         </div>
 
         <div class="ps-card course-card">
@@ -745,7 +745,7 @@ renderCards();
             <span class="course-year">2024</span>
           </div>
           <h3 class="course-name">Course Title</h3>
-          <p class="course-desc">What you learned in this course. Replace with real content from your resume.</p>
+          <p class="course-desc">Course content</p>
         </div>
 
         <div class="ps-card course-card">
@@ -754,14 +754,12 @@ renderCards();
             <span class="course-year">2023</span>
           </div>
           <h3 class="course-name">Course Title</h3>
-          <p class="course-desc">What you learned in this course. Replace with real content from your resume.</p>
-        </div> -->
-
-        <!-- Copy a course-card block to add more courses -->
+          <p class="course-desc">Course content</p>
+        </div> 
 
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- EDUCATION -->
   <section class="portfolio-section" id="section-education">
@@ -794,8 +792,6 @@ renderCards();
             <p class="tl-desc">Electronics Communication Engineering, GPA 3.7.</p>
           </div>
         </div>
-
-        <!-- ✏️ Copy a timeline-item block to add more education entries -->
 
       </div>
     </div>
@@ -835,9 +831,6 @@ renderCards();
           <h3 class="interest-name">Emerging Technologies</h3>
           <p class="interest-desc">AI and future-shaping fields like quantum computing, intelligent systems, and next-generation software.</p>
         </div>
-
-        <!-- Copy an interest-card block to add more interests -->
-
       </div>
     </div>
   </section>
@@ -1026,7 +1019,7 @@ renderCards();
   </script>
 
   <script>
-    // ── Portfolio sections: open / close ──
+    // ── Portfolio sections: open/close ──
     const overlay = document.getElementById("psOverlay");
 
     function openSection(id) {
@@ -1059,7 +1052,7 @@ renderCards();
       });
     });
 
-    // ✕ close buttons inside each section
+    // close buttons inside each section
     document.querySelectorAll(".ps-close").forEach(btn => {
       btn.addEventListener("click", () => closeSection(btn.dataset.target));
     });

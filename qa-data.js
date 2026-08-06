@@ -6,6 +6,10 @@ const qaData = [
     The Core Conflict
     -> General Relativity: Created by Albert Einstein, it explains the large-scale universe planets, stars, and galaxies-governed
     by smooth, predictable gravity.
+    -> Quantum Mechanics: It explains the ultra-small scale-atoms and subatomic particles-governed by probabilities and three
+    non-gravitational forces (electromagnetism, the strong nuclear forces, and the weak nuclear force).
+    -> The Breakdown: When scientists try to apply both sets of rules at once-such as inside the centre of a black hole or at the
+    exact moment of the Big Bang-the math breaks down, and the two theories contradict each other.
     
   {
     question: "Why do indexing problems happen?",

@@ -9,8 +9,10 @@ const qaData = [
     -> Quantum Mechanics: It explains the ultra-small scale-atoms and subatomic particles-governed by probabilities and three
     non-gravitational forces (electromagnetism, the strong nuclear forces, and the weak nuclear force).
     -> The Breakdown: When scientists try to apply both sets of rules at once-such as inside the centre of a black hole or at the
-    exact moment of the Big Bang-the math breaks down, and the two theories contradict each other.
-    
+    exact moment of the Big Bang-the math breaks down, and the two theories contradict each other.`,
+    tag: "Space",
+    date: "August 01, 2026"
+  },    
   {
     question: "Why do indexing problems happen?",
     answer: `Usually because Google can not understand something. For example:

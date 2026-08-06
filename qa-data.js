@@ -1,7 +1,12 @@
 const qaData = [
-  /**{
+  {
     question: "Theory of Everything",
-    answer: `A Theory of Everything (TOE) is a hypothetical master framework in physics that unites general relativity and quantum*/
+    answer: `A Theory of Everything (TOE) is a hypothetical master framework in physics that unites general relativity and quantum
+    mechanics, combining all four fundamental forces of nature.
+    The Core Conflict
+    -> General Relativity: Created by Albert Einstein, it explains the large-scale universe planets, stars, and galaxies-governed
+    by smooth, predictable gravity.
+    
   {
     question: "Why do indexing problems happen?",
     answer: `Usually because Google can not understand something. For example:

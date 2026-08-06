@@ -1,5 +1,5 @@
 const qaData = [
-  /**{
+  {
     question: "Theory of Everything",
     answer: `A Theory of Everything (TOE) is a hypothetical master framework in physics that unites general relativity and quantum
     mechanics, combining all four fundamental forces of nature.
@@ -12,7 +12,7 @@ const qaData = [
     exact moment of the Big Bang-the math breaks down, and the two theories contradict each other.`,
     tag: "Space",
     date: "August 01, 2026"
-  },*/
+  },
   {
     question: "Why do indexing problems happen?",
     answer: `Usually because Google can not understand something. For example:

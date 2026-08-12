@@ -9,7 +9,7 @@ const qaData = [
     These issues prevent search engine "crawlers" (bots) from properly accessing or rendering the website.
     => Crawl Errors: Broken links, missing pages (404 errors), or misconfigured files blocking bots.
     => Slow Site Speed: Slow loading times frustrate users and negatively impact search results.
-    => Poor mobile friendliness: Since most searches happen on mobile devices, a site that does not adapt to smaller screens will
+    => Poor mobile-friendliness: Since most searches happen on mobile devices, a site that does not adapt to smaller screens will
     rank lower.
     => Duplicate Content: Identical or very similar content across multiple pages confuses search engines.
     2. On-Page SEO problems:
@@ -20,7 +20,11 @@ const qaData = [
     looking for.
     => Poor Content Quality: Content that is thin, copied, or written purely for search engines rather than offering real value to
     human readers.
-    `,
+    3. Off-page SEO problems:
+    These are the problems related to external signals of trust and authority.
+    => Lack of backlinks: If few other reputable websites link to yours, search engines may view your site as less authoritative.
+    => Toxic links: Having low-quality or spammy websites linking to your site can trigger search engine penalties. 
+    We can track, diagnose, and resolve many of these issues by monitoring the site using tools like Google Search Console.`,
     tag: "Tech",
     date: "August 02, 2026"
   },
@@ -32,7 +36,7 @@ const qaData = [
     -> General Relativity: Created by Albert Einstein, it explains the large-scale universe planets, stars, and galaxies-governed
     by smooth, predictable gravity.
     -> Quantum Mechanics: It explains the ultra-small scale-atoms and subatomic particles-governed by probabilities and three
-    non-gravitational forces (electromagnetism, the strong nuclear forces, and the weak nuclear force).
+    non-gravitational forces (electromagnetism, the strong nuclear force, and the weak nuclear force).
     -> The Breakdown: When scientists try to apply both sets of rules at once-such as inside the centre of a black hole or at the
     exact moment of the Big Bang-the math breaks down, and the two theories contradict each other.`,
     tag: "Space",

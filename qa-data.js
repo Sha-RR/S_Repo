@@ -11,7 +11,16 @@ const qaData = [
     => Slow Site Speed: Slow loading times frustrate users and negatively impact search results.
     => Poor mobile friendliness: Since most searches happen on mobile devices, a site that does not adapt to smaller screens will
     rank lower.
-    => Duplicate Content: Identical or very similar content across multiple pages confuses search engines.`,
+    => Duplicate Content: Identical or very similar content across multiple pages confuses search engines.
+    2. On-Page SEO problems:
+    These issues are directly related to the content and structure of individual pages.
+    => Missing or unoptimized Meta Tags: Blank or poorly written title tags and descriptions lower click-through rates from
+    search results.
+    => Targeting the wrong keywords: Optimizing for keywords that have too much competition or do not match what users are actually
+    looking for.
+    => Poor Content Quality: Content that is thin, copied, or written purely for search engines rather than offering real value to
+    human readers.
+    `,
     tag: "Tech",
     date: "August 02, 2026"
   },

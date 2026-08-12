@@ -1,5 +1,21 @@
 const qaData = [
   {
+    question: "SEO problems.",
+    answer: `These are the errors or oversights that prevent search engines from crawling, indexing, or understanding your site's
+    pages. When these issues occur, a website will struggle to rank well in search results, resulting in a loss of organic traffic
+    and potential customers.
+    It generally falls into 3 main categories:
+    1. Technical SEO problems:
+    These issues prevent search engine "crawlers" (bots) from properly accessing or rendering the website.
+    => Crawl Errors: Broken links, missing pages (404 errors), or misconfigured files blocking bots.
+    => Slow Site Speed: Slow loading times frustrate users and negatively impact search results.
+    => Poor mobile friendliness: Since most searches happen on mobile devices, a site that does not adapt to smaller screens will
+    rank lower.
+    => Duplicate Content: Identical or very similar content across multiple pages confuses search engines.`,
+    tag: "Tech",
+    date: "August 02, 2026"
+  },
+  {
     question: "Theory of Everything",
     answer: `A Theory of Everything (TOE) is a hypothetical master framework in physics that unites general relativity and quantum
     mechanics, combining all four fundamental forces of nature.

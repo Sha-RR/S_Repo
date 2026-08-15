@@ -28,6 +28,7 @@ const qaData = [
     tag: "Tech",
     date: "August 02, 2026"
   },
+  
   {
     question: "Theory of Everything",
     answer: `A Theory of Everything (TOE) is a hypothetical master framework in physics that unites general relativity and quantum

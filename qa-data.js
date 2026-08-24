@@ -1,6 +1,4 @@
 const qaData = [
-  /*{
-    question: " -->}*/
   {
     question: "SEO problems.",
     answer: `These are the errors or oversights that prevent search engines from crawling, indexing, or understanding your site's

@@ -5,6 +5,21 @@ const qaData = [
     tag: "Tech",
     date: "August 28, 2026"
   },
+
+  {
+    question: "How EC2 Works (Conceptually)?",
+    answer: `AWS EC2 = renting a raw Linux computer in the cloud
+                      |
+             You install Node.js on it yourself (like your own machine)
+                      |
+             Your Next.js app runs as a process on that machine
+                      |
+             Nginx sits in front, routing web traffic (port 80/443) to your app (port 3000)
+                      |
+             A domain name points to the server's IP address`,
+    tag: "Tech",
+    date: "August 28, 2026"
+  },
   
   {
     question: "SEO problems.",

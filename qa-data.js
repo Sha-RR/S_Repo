@@ -1,7 +1,7 @@
 const qaData = [
   {
     question: "For more updates, follow the notes. Thank you.",
-    answer: `Follow the notes.`,
+    answer: `Follow the Notes.`,
     tag: "Tech",
     date: "August 28, 2026"
   },
@@ -16,7 +16,8 @@ const qaData = [
                       |
     Nginx sits in front, routing web traffic (port 80/443) to your app (port 3000)
                       |
-    A domain name points to the server's IP address`,
+    A domain name points to the server's IP address
+    => For more information, follow Notes.`,
     tag: "AI",
     date: "August 28, 2026"
   },

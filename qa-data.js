@@ -1,12 +1,13 @@
 const qaData = [
   {
     question: "For more updates, follow the notes. Thank you.",
-    answer: `.`,
+    answer: `Follow the notes.`,
     tag: "Tech",
     date: "August 28, 2026"
   },
+  
   {
-    question: "SEO problems.",
+    question: "SEO problems?",
     answer: `These are the errors or oversights that prevent search engines from crawling, indexing, or understanding your site's
     pages. When these issues occur, a website will struggle to rank well in search results, resulting in a loss of organic traffic
     and potential customers.

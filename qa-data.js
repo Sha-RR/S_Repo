@@ -1,6 +1,8 @@
 const qaData = [
   {
-    question: "For more updates, follow notes. Thank you."
+    question: "For more updates, follow the notes. Thank you.",
+    tag: "Tech",
+    date: "August 28, 2026"
   },
   {
     question: "SEO problems.",

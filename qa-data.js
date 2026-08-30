@@ -7,6 +7,13 @@ const qaData = [
   },
 
   {
+    question: "What is the difference between package.json and package-lock.json?",
+    answer: `Follow notes`,
+    tag: "Tech",
+    date: "August 29, 2026"
+  },
+
+  {
     question: "How EC2 Works (Conceptually)?",
     answer: `AWS EC2 = renting a raw Linux computer in the cloud
                       |

@@ -8,8 +8,9 @@ const qaData = [
 
   {
     question: "What is the difference between package.json and package-lock.json?",
-    answer: `Follow notes
-    And why do we commit both of these to git?`,
+    answer: `Why do we commit both of these to git?
+    Interview questions and more.
+    Follow the notes for more information.`,
     tag: "Tech",
     date: "August 29, 2026"
   },

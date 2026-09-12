@@ -123,6 +123,7 @@ const qaData = [
     tag: "Tech",
     date: "July 30, 2026"
   },
+  
   {
     question: "Solana blockchain.",
     answer: `Solana is a high-performance Layer 1 blockchain designed to power scalable, fast, and low-cost decentralized applications (dapps) and financial tools.

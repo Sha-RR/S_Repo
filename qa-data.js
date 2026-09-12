@@ -149,6 +149,7 @@ const qaData = [
     tag: "Tech",
     date: "July 29, 2026"
   },
+  
   {
     question: "How do you fix it if the API is getting thousands of requests per second, the server is choking, and users are complaining?",
     answer:`Follow a structured process. Stabilize -> identify -> mitigate -> fix -> prevent.

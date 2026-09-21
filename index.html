@@ -315,7 +315,6 @@ function tagStyle(tag) {
   const c = tagColors[tag] || { bg: '#1a1a1a', text: '#aaa', border: '#333' };
   return `background:${c.bg}; color:${c.text}; border:1px solid ${c.border};`;
 }
-
 // THIS is the fix — converts your newlines into <br> tags so HTML renders them
 function formatAnswer(text) {
   return text

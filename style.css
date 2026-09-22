@@ -17,6 +17,7 @@ body {
 }
 
 /* Orbs */
+
 .bg-orb {
   position: fixed; border-radius: 50%; filter: blur(100px);
   opacity: 0.5; pointer-events: none; z-index: 0;

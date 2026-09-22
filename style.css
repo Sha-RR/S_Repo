@@ -15,6 +15,7 @@ body {
     radial-gradient(circle at 70% 82%, rgba(45,224,167,0.08), transparent 22%),
     linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 30%, var(--bg-3) 70%, var(--bg-4) 100%);
 }
+
 /* Orbs */
 .bg-orb {
   position: fixed; border-radius: 50%; filter: blur(100px);

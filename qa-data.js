@@ -5,6 +5,7 @@ const qaData = [
     tag: "Tech",
     date: "August 28, 2026"
   },
+  
   {
     question: "What is the difference between package.json and package-lock.json?",
     answer: `Why do we commit both of these to git?

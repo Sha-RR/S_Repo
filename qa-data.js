@@ -1,8 +1,5 @@
 const qaData = [
   {
-    question: "Git modules.",
-  },
-  {
     question: "For more updates, follow the notes. Thank you.",
     answer: `Follow the Notes.`,
     tag: "Tech",

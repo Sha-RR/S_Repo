@@ -16,7 +16,6 @@ body {
     linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 30%, var(--bg-3) 70%, var(--bg-4) 100%);
 }
 /* Orbs */
-
 .bg-orb {
   position: fixed; border-radius: 50%; filter: blur(100px);
   opacity: 0.5; pointer-events: none; z-index: 0;

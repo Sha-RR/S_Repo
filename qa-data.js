@@ -5,6 +5,7 @@ const qaData = [
     tag: "Tech",
     date: "August 28, 2026"
   },
+  
   {
     question: "What is the difference between package.json and package-lock.json?",
     answer: `Why do we commit both of these to git?
@@ -13,6 +14,7 @@ const qaData = [
     tag: "Tech",
     date: "August 29, 2026"
   },
+
   {
     question: "How EC2 Works (Conceptually)?",
     answer: `AWS EC2 = renting a raw Linux computer in the cloud

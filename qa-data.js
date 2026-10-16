@@ -30,7 +30,6 @@ const qaData = [
     tag: "AI",
     date: "August 28, 2026"
   },
-  
   {
     question: "SEO problems.",
     answer: `These are the errors or oversights that prevent search engines from crawling, indexing, or understanding your site's

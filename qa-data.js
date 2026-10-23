@@ -1,5 +1,6 @@
 const qaData = [
   {
+    question: "Recent AI attacks.",
   },
   {
     question: "For more updates, follow the notes. Thank you.",

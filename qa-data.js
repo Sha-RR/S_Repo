@@ -3,6 +3,7 @@ const qaData = [
     question: "Recent AI attacks.",
     answer: ``,
     tag: "AI",
+    date: "October 23, 2026"
   },
   {
     question: "For more updates, follow the notes. Thank you.",

@@ -2,7 +2,7 @@ const qaData = [
   {
     question: "Recent AI attacks.",
     answer: ``,
-    
+    tag: "AI",
   },
   {
     question: "For more updates, follow the notes. Thank you.",
